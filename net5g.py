@@ -114,12 +114,13 @@ class Net5GC():
         """Whether a command execute sucessfully."""
         if command_id == 2 and pduNum_before > 1:
             # ps_release
-            return self._couterPDU(ueId) == pduNum_before + 1
+            print("before: %d, after: %d" %(pduNum_before, self._couterPDU(ueId)))
+            return self._couterPDU(ueId) == pduNum_before - 1
         elif command_id in self.commands_id:
             # ps_release, ps_release_all, deregister, ps_estabish
             # if suceeded, ue's log contains "TUN interface" 
             ueId_digit = re.search("\d+", ueId).group()
-            log = os.popen("tail -n 5 %s/%s.out| grep 'TUN interface'" % (self.log_dir, ueId_digit)).read()
+            log = os.popen("tail -n 1 %s/%s.out| grep 'TUN interface'" % (self.log_dir, ueId_digit)).read()
             return len(log.split('\n')) > 1
         else:
             raise RuntimeError("Command_id out of index.")

@@ -57,13 +57,32 @@ Batch-UERANSIM-Cli基于UERANSIM项目实现批量ue连接5G核心网，并执�
 
 
 
-#### 三、操作介绍
+#### 三、UERANSIM安装及配置
+
+
+```sh
+sudo mkdir -p /opt/module
+cd /opt/module
+sudo git clone https://github.com/aligungr/UERANSIM
+
+# 依赖安装，包括sctp协议依赖等
+sudo apt update
+sudo apt install libsctp-dev lksctp-tools iproute2 -y
+
+# 编译代码
+cd /opt/module/UERANSIM
+sudo make
+```
+
+#### 四、操作介绍
+
 
 依赖包安装 `pip3 install -r requirements.txt`
 
 操作前，打开`resources/ip.py`文件，将`free5gcIP`修改为free5GC核心网安装主机的IP地址或将open5gsIP改为open5gsIP改为Open5GS核心网地址
 
-> Notice: 如果需要使用Open5GS核心网，需要使用参数 --net5gc open5gs
+> Notice: 如果需要使用Open5GS核心网，需要使用参数 --net5gc open5gs、
+> Notice：操作需在root用户下执行
 
 获取一些帮助`python3 run.py -h`
 
@@ -91,7 +110,7 @@ python3 run.py --simcard 10 --ue 5 --sec 100
 1. 先注册一些UE在核心网站，`python3 run.py --simcard 10`
 2. 多个UE经常并行发送信令到核心网，`python3 run.py --ue 5 --sec 100`
 
-### 四、TroubleShooting
+### 五、TroubleShooting
 (1) Maybe there are some problem in your core network, please check it.
 ```python
 def randomCommands(self, ueId, over):

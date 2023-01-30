@@ -46,7 +46,7 @@ if __name__ == '__main__':
     parser.add_argument("--ue", help="The number of ues, default 1", type=int)
     parser.add_argument("--simcard", help="The number of SimCards, default 2", type=int)
     parser.add_argument("--net5gc", help="The type of 5g core network, 'free5gc' or 'open5gs', default free5gc", default="free5gc")
-    # parser.add_argument("--sudo", help="Running in not-root user", default="free5gc")
+    # parser.add_argument("--sudo", help="Running in not-root user", default="True", action="store_true")
 
     args = parser.parse_args()
     net5gc = None
