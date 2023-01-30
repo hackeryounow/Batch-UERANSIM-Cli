@@ -102,10 +102,11 @@ ignoreStreamIds: true
 ```
 
 
-配置环境变量`vim vim /etc/profile`
+配置环境变量`vim /etc/profile`
 ```
 export PATH=$PATH:/opt/module/UERANSIM/build/
 ```
+`source /etc/profile`
 
 #### 四、操作介绍
 
