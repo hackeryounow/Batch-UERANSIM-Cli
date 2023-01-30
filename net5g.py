@@ -58,7 +58,7 @@ class Net5GC():
         self._writeCurrentUeIMSI(currentUeIMSI + numbers)
 
     def _randomChoicePDUId(self, ueId):
-        pdus = os.popen("/opt/module/UERANSIM/build/nr-cli -e ps-list %s | grep 'PDU Session'" % ueId).read()
+        pdus = os.popen("nr-cli -e ps-list %s | grep 'PDU Session'" % ueId).read()
         # pdu_count = self._couterPDU(ueId)
 
         pdus = pdus.split("\n")[:-1]
@@ -74,7 +74,7 @@ class Net5GC():
         return selected_pduId
 
     def _couterPDU(self, ueId):
-        pdus = os.popen("/opt/module/UERANSIM/build/nr-cli -e ps-list " + ueId).read()
+        pdus = os.popen("nr-cli -e ps-list " + ueId).read()
         return pdus.count("PDU Session")
 
     def randomCommands(self, ueId, over):
@@ -90,7 +90,7 @@ class Net5GC():
                     continue
                 command = command + " " + str(pduId);
                 pduNum_before = self._couterPDU(ueId)
-            execute_cmd = "/opt/module/UERANSIM/build/nr-cli -e '%s' %s" % (command, ueId)
+            execute_cmd = "nr-cli -e '%s' %s" % (command, ueId)
             print("LOG:  execute %s" % execute_cmd)
             os.system(execute_cmd)
             timer = 0
@@ -127,7 +127,7 @@ class Net5GC():
         return False
 
     def _deregisterByUeId(delf, ueId):
-        os.system("/opt/module/UERANSIM/build/nr-cli -e 'deregister normal' %s" %  ueId)
+        os.system("nr-cli -e 'deregister normal' %s" %  ueId)
 
 
     def _terminateAllUE(self):
@@ -154,12 +154,12 @@ class Net5GC():
         for file in tqdm(files, desc='Starting UEs: '):
             #file.bar.set_description("Start UEs: ")
             log_file = file.split('.')[0].split('-')[3]
-            os.system("nohup /opt/module/UERANSIM/build/nr-ue -c %s/%s > %s/%s.out 2>&1 &" % (self.config_dir, file, self.log_dir, log_file))
+            os.system("nohup nr-ue -c %s/%s > %s/%s.out 2>&1 &" % (self.config_dir, file, self.log_dir, log_file))
             time.sleep(2)
     
 
     def generate(self, sec):
-        query_ueIds = os.popen("/opt/module/UERANSIM/build/nr-cli -d | grep imsi").read()
+        query_ueIds = os.popen("nr-cli -d | grep imsi").read()
         ueIds = query_ueIds.split("\n")
         ueIds = ueIds[:-1]
         print(ueIds)
