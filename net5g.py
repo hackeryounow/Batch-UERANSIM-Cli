@@ -90,8 +90,9 @@ class Net5GC():
                     continue
                 command = command + " " + str(pduId);
                 pduNum_before = self._couterPDU(ueId)
+                
             execute_cmd = "nr-cli -e '%s' %s" % (command, ueId)
-            print("LOG:  execute %s" % execute_cmd)
+            print("LOG:  execute %s, %s" % execute_cmd)
             os.system(execute_cmd)
             timer = 0
             flag = True
@@ -114,7 +115,7 @@ class Net5GC():
         """Whether a command execute sucessfully."""
         if command_id == 2 and pduNum_before > 1:
             # ps_release
-            print("before: %d, after: %d" %(pduNum_before, self._couterPDU(ueId)))
+            
             return self._couterPDU(ueId) == pduNum_before - 1
         elif command_id in self.commands_id:
             # ps_release, ps_release_all, deregister, ps_estabish
