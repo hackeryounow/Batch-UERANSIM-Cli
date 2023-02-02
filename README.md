@@ -191,4 +191,4 @@ def randomCommands(self, ueId, over):
 
 目前的解决办法是重启核心网
 
-（3）基于Kubernetes部署的核心网中，AMF会出现故障重启，而UERANSIM的gnb默认是在启动过程中连接amf，此时，需要重启gnb，为了方便，使用`gnb.py`即可实时监控重启gnb，启动命令`python gnb.py`。可以不手动启动gnb，但需要在执行`run.py`前执行`gnb.py`。
+（3）基于Kubernetes部署的核心网中，AMF会出现故障重启，而UERANSIM的gnb默认是在启动过程中连接amf，此时，需要重启gnb，为了方便，使用`gnb.py`即可实时监控重启gnb，启动命令`python gnb.py`。可以不手动启动gnb，但需要在执行`run.py`前执行`gnb.py`。（目前仅支持Open5GS）
