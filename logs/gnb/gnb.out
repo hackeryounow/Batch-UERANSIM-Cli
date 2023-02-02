@@ -1,0 +1,8 @@
+UERANSIM v3.2.6
+[2023-02-02 09:54:40.296] [rls-udp] [error] RLS failure [Socket bind failed: Address already in use]
+[2023-02-02 09:54:40.296] [gtp] [error] GTP/UDP task could not be created. Socket bind faile[2023-02-02 09:54:40.297] [sctp] [debug] SCTP association setup ascId[33]
+[2023-02-02 09:54:40.297] [ngap] [debug] Sending NG Se[2023-02-02 09:54:40.298] [sctp] [info] SCTP connection established (192.168.59.130:38412)
+[2023-02-02 09:54:40.299] [sctp] [debug] SCTP association setu[2023-02-02 09:54:40.399] [rrc] [debug] UE[1] new signal detected
+tup Request
+[2023-02-02 09:54:40.299] [ngap] [debug] NG Setup Response received
+[2023-02-02 09:54:40.299] [ngap] [info] NG Setup procedure is successful
