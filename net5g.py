@@ -104,10 +104,12 @@ class Net5GC():
                     if not flag:
                         raise RuntimeError("Maybe there are some problem in your core network, please check it.")
                     self._deregisterByUeId(ueId)
+                    # Change the ueId, wating for `deregister`` command completely, ueId=4
+                    ueId = 4
                     timer = 0
                     flag = False
                     
-                time.sleep(5)
+                time.sleep(6)
                 timer += 1
     
     
