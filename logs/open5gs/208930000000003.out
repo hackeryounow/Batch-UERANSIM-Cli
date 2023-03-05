@@ -1,0 +1,1969 @@
+UERANSIM v3.2.6
+[2023-03-02 22:47:36.246] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-03-02 22:47:38.267] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:47:38.267] [nas] [error] PDU session establishment could not be triggered, UE is not registered
+[2023-03-02 22:47:38.448] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 22:47:40.650] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 22:47:41.248] [rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+[2023-03-02 22:47:41.248] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 22:47:41.751] [nas] [info] UE switches to state [MM-DEREGISTERED/NO-CELL-AVAILABLE]
+[2023-03-02 22:48:11.260] [rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+[2023-03-02 22:48:11.260] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 22:48:11.478] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 22:48:41.272] [rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+[2023-03-02 22:48:41.272] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 22:48:42.306] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 22:49:11.285] [rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+[2023-03-02 22:49:11.285] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 22:49:13.134] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 22:49:41.303] [rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+[2023-03-02 22:49:41.303] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 22:49:43.962] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 22:50:11.315] [rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+[2023-03-02 22:50:11.315] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 22:50:14.793] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 22:50:28.870] [rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2023-03-02 22:50:28.870] [nas] [info] Selected plmn[208/93]
+[2023-03-02 22:50:28.870] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2023-03-02 22:50:28.870] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 22:50:28.870] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:50:28.870] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 22:50:28.873] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:50:28.873] [nas] [debug] Sending Initial Registration
+[2023-03-02 22:50:28.874] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 22:50:28.874] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 22:50:28.874] [rrc] [info] RRC connection established
+[2023-03-02 22:50:28.874] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 22:50:28.874] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 22:50:28.879] [nas] [debug] Authentication Request received
+[2023-03-02 22:50:28.879] [nas] [debug] Sending Authentication Failure due to SQN out of range
+[2023-03-02 22:50:28.883] [nas] [debug] Authentication Request received
+[2023-03-02 22:50:28.885] [nas] [debug] Security Mode Command received
+[2023-03-02 22:50:28.886] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 22:50:28.894] [nas] [debug] Registration accept received
+[2023-03-02 22:50:28.894] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:50:28.894] [nas] [debug] Sending Registration Complete
+[2023-03-02 22:50:28.894] [nas] [info] Initial Registration is successful
+[2023-03-02 22:50:28.894] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:50:28.894] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:50:29.099] [nas] [debug] Configuration Update Command received
+[2023-03-02 22:50:29.109] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:50:29.109] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:50:29.138] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.2] is up.
+[2023-03-02 22:50:32.571] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:50:32.672] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:50:49.441] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:50:49.441] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:50:49.451] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:50:49.451] [nas] [info] PDU Session establishment is successful PSI[2]
+[2023-03-02 22:50:49.485] [app] [info] Connection setup for PDU session[2] is successful, TUN interface[uesimtun1, 10.45.0.3] is up.
+[2023-03-02 22:50:50.719] [nas] [debug] Sending PDU Session Release Request for PSI[2]
+[2023-03-02 22:50:50.723] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:50:50.723] [nas] [debug] Performing local release of PDU session[2]
+[2023-03-02 22:50:50.782] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:50:50.930] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:50:50.930] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:50:51.129] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:50:51.129] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:51:07.459] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:51:07.459] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:51:07.467] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:51:07.467] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:51:07.492] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.5] is up.
+[2023-03-02 22:51:08.825] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:51:08.837] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:51:08.837] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:51:09.846] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:51:09.846] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:51:09.855] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:51:09.855] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:51:09.893] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.6] is up.
+[2023-03-02 22:51:14.851] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:51:14.863] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:51:14.863] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:51:15.351] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:51:15.351] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:51:15.359] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:51:15.359] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:51:15.395] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.7] is up.
+[2023-03-02 22:51:20.873] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:51:20.975] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:51:37.489] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:51:37.489] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:51:37.498] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:51:37.498] [nas] [info] PDU Session establishment is successful PSI[2]
+[2023-03-02 22:51:37.536] [app] [info] Connection setup for PDU session[2] is successful, TUN interface[uesimtun1, 10.45.0.8] is up.
+[2023-03-02 22:51:39.022] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 22:51:39.032] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 22:51:39.032] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:51:39.032] [nas] [debug] Performing local release of PDU session[2]
+[2023-03-02 22:51:39.032] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 22:51:39.045] [nas] [debug] De-registration accept received
+[2023-03-02 22:51:39.045] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 22:51:39.045] [nas] [info] De-registration is successful
+[2023-03-02 22:51:39.045] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:51:39.045] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 22:51:39.045] [nas] [debug] Sending Initial Registration
+[2023-03-02 22:51:39.045] [nas] [debug] Deleting NAS security context
+[2023-03-02 22:51:39.045] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 22:51:39.045] [rrc] [debug] RRC Release received
+[2023-03-02 22:51:39.045] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 22:51:39.045] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 22:51:39.045] [nas] [info] UE switches to state [5U2-NOT-UPDATED]
+[2023-03-02 22:51:39.045] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-03-02 22:51:49.503] [nas] [debug] NAS timer[3511] expired [1]
+[2023-03-02 22:51:49.503] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-03-02 22:51:49.509] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:51:49.509] [nas] [debug] Sending Initial Registration
+[2023-03-02 22:51:49.509] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 22:51:49.510] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 22:51:49.510] [rrc] [info] RRC connection established
+[2023-03-02 22:51:49.510] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 22:51:49.510] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 22:51:49.513] [nas] [debug] Authentication Request received
+[2023-03-02 22:51:49.515] [nas] [debug] Security Mode Command received
+[2023-03-02 22:51:49.515] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 22:51:49.523] [nas] [debug] Registration accept received
+[2023-03-02 22:51:49.523] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:51:49.523] [nas] [info] UE switches to state [5U1-UPDATED]
+[2023-03-02 22:51:49.523] [nas] [debug] Sending Registration Complete
+[2023-03-02 22:51:49.523] [nas] [info] Initial Registration is successful
+[2023-03-02 22:51:49.523] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:51:49.523] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:51:49.731] [nas] [debug] Configuration Update Command received
+[2023-03-02 22:51:49.737] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:51:49.738] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:51:49.752] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.9] is up.
+[2023-03-02 22:51:51.073] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:51:51.088] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:51:51.088] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:51:51.684] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:51:51.684] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:51:51.693] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:51:51.693] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:51:51.734] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.10] is up.
+[2023-03-02 22:51:57.098] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:51:57.110] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:51:57.110] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:51:57.189] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:51:57.189] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:52:13.528] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:52:13.529] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:52:13.548] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:52:13.548] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:52:13.573] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.12] is up.
+[2023-03-02 22:52:15.134] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 22:52:15.144] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 22:52:15.144] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:52:15.144] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 22:52:15.148] [rrc] [debug] RRC Release received
+[2023-03-02 22:52:15.148] [nas] [debug] De-registration accept received
+[2023-03-02 22:52:15.148] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 22:52:15.148] [nas] [info] De-registration is successful
+[2023-03-02 22:52:15.148] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 22:52:15.148] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:52:15.148] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 22:52:15.157] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:52:15.157] [nas] [debug] Sending Initial Registration
+[2023-03-02 22:52:15.157] [nas] [debug] Deleting NAS security context
+[2023-03-02 22:52:15.157] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 22:52:15.157] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 22:52:15.162] [rrc] [info] RRC connection established
+[2023-03-02 22:52:15.162] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 22:52:15.162] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 22:52:15.352] [nas] [debug] Authentication Request received
+[2023-03-02 22:52:15.355] [nas] [debug] Security Mode Command received
+[2023-03-02 22:52:15.355] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 22:52:15.360] [nas] [debug] Registration accept received
+[2023-03-02 22:52:15.360] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:52:15.360] [nas] [debug] Sending Registration Complete
+[2023-03-02 22:52:15.360] [nas] [info] Initial Registration is successful
+[2023-03-02 22:52:15.360] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:52:15.365] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:52:15.562] [nas] [debug] Configuration Update Command received
+[2023-03-02 22:52:15.568] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:52:15.571] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:52:15.592] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.13] is up.
+[2023-03-02 22:52:21.157] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:52:21.258] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:52:37.552] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:52:37.552] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:52:37.561] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:52:37.561] [nas] [info] PDU Session establishment is successful PSI[2]
+[2023-03-02 22:52:37.590] [app] [info] Connection setup for PDU session[2] is successful, TUN interface[uesimtun1, 10.45.0.14] is up.
+[2023-03-02 22:52:39.295] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:52:39.396] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:52:55.571] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:52:55.571] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:52:55.591] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:52:55.591] [nas] [info] PDU Session establishment is successful PSI[3]
+[2023-03-02 22:52:55.649] [app] [info] Connection setup for PDU session[3] is successful, TUN interface[uesimtun2, 10.45.0.15] is up.
+[2023-03-02 22:52:57.448] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:52:57.474] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:52:57.474] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:53:03.488] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:53:03.589] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:53:19.613] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:53:19.613] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:53:19.622] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:53:19.622] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:53:19.652] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.16] is up.
+[2023-03-02 22:53:21.636] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:53:21.737] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:53:38.632] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:53:38.632] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:53:38.641] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:53:38.641] [nas] [info] PDU Session establishment is successful PSI[4]
+[2023-03-02 22:53:38.684] [app] [info] Connection setup for PDU session[4] is successful, TUN interface[uesimtun3, 10.45.0.17] is up.
+[2023-03-02 22:53:39.778] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:53:39.778] [nas] [debug] Sending PDU Session Release Request for PSI[2]
+[2023-03-02 22:53:39.778] [nas] [debug] Sending PDU Session Release Request for PSI[3]
+[2023-03-02 22:53:39.778] [nas] [debug] Sending PDU Session Release Request for PSI[4]
+[2023-03-02 22:53:39.792] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:53:39.792] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:53:39.795] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:53:39.795] [nas] [debug] Performing local release of PDU session[2]
+[2023-03-02 22:53:39.795] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:53:39.795] [nas] [debug] Performing local release of PDU session[4]
+[2023-03-02 22:53:39.795] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:53:39.795] [nas] [debug] Performing local release of PDU session[3]
+[2023-03-02 22:53:40.683] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:53:40.683] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:53:40.691] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:53:40.691] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:53:40.718] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.18] is up.
+[2023-03-02 22:53:45.804] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:53:45.816] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:53:45.816] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:53:46.188] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:53:46.193] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:53:46.232] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:53:46.232] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:53:46.269] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.19] is up.
+[2023-03-02 22:53:51.830] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:53:51.931] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:54:08.662] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:54:08.662] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:54:08.671] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:54:08.671] [nas] [info] PDU Session establishment is successful PSI[2]
+[2023-03-02 22:54:08.705] [app] [info] Connection setup for PDU session[2] is successful, TUN interface[uesimtun1, 10.45.0.20] is up.
+[2023-03-02 22:54:09.966] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:54:10.068] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:54:26.680] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:54:26.680] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:54:26.694] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:54:26.694] [nas] [info] PDU Session establishment is successful PSI[3]
+[2023-03-02 22:54:26.730] [app] [info] Connection setup for PDU session[3] is successful, TUN interface[uesimtun2, 10.45.0.21] is up.
+[2023-03-02 22:54:28.114] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 22:54:28.124] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 22:54:28.124] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:54:28.124] [nas] [debug] Performing local release of PDU session[2]
+[2023-03-02 22:54:28.124] [nas] [debug] Performing local release of PDU session[3]
+[2023-03-02 22:54:28.124] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 22:54:28.139] [rrc] [debug] RRC Release received
+[2023-03-02 22:54:28.141] [nas] [debug] De-registration accept received
+[2023-03-02 22:54:28.141] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 22:54:28.141] [nas] [info] De-registration is successful
+[2023-03-02 22:54:28.141] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 22:54:28.141] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:54:28.141] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 22:54:28.141] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:54:28.141] [nas] [debug] Sending Initial Registration
+[2023-03-02 22:54:28.142] [nas] [debug] Deleting NAS security context
+[2023-03-02 22:54:28.142] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 22:54:28.142] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 22:54:28.143] [rrc] [info] RRC connection established
+[2023-03-02 22:54:28.143] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 22:54:28.144] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 22:54:28.348] [nas] [debug] Authentication Request received
+[2023-03-02 22:54:28.351] [nas] [debug] Security Mode Command received
+[2023-03-02 22:54:28.351] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 22:54:28.357] [nas] [debug] Registration accept received
+[2023-03-02 22:54:28.357] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:54:28.357] [nas] [debug] Sending Registration Complete
+[2023-03-02 22:54:28.357] [nas] [info] Initial Registration is successful
+[2023-03-02 22:54:28.357] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:54:28.361] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:54:28.562] [nas] [debug] Configuration Update Command received
+[2023-03-02 22:54:28.569] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:54:28.569] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:54:28.609] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.22] is up.
+[2023-03-02 22:54:34.185] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:54:34.200] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:54:34.200] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:54:34.632] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:54:34.632] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:54:34.641] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:54:34.641] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:54:34.676] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.23] is up.
+[2023-03-02 22:54:40.219] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 22:54:40.229] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 22:54:40.229] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:54:40.229] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 22:54:40.242] [rrc] [debug] RRC Release received
+[2023-03-02 22:54:40.243] [nas] [debug] De-registration accept received
+[2023-03-02 22:54:40.243] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 22:54:40.243] [nas] [info] De-registration is successful
+[2023-03-02 22:54:40.243] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 22:54:40.243] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:54:40.243] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 22:54:40.243] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:54:40.243] [nas] [debug] Sending Initial Registration
+[2023-03-02 22:54:40.243] [nas] [debug] Deleting NAS security context
+[2023-03-02 22:54:40.243] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 22:54:40.244] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 22:54:40.244] [rrc] [info] RRC connection established
+[2023-03-02 22:54:40.244] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 22:54:40.245] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 22:54:40.452] [nas] [debug] Authentication Request received
+[2023-03-02 22:54:40.458] [nas] [debug] Security Mode Command received
+[2023-03-02 22:54:40.458] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 22:54:40.466] [nas] [debug] Registration accept received
+[2023-03-02 22:54:40.466] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:54:40.466] [nas] [debug] Sending Registration Complete
+[2023-03-02 22:54:40.466] [nas] [info] Initial Registration is successful
+[2023-03-02 22:54:40.466] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:54:40.466] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:54:40.669] [nas] [debug] Configuration Update Command received
+[2023-03-02 22:54:40.676] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:54:40.676] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:54:40.711] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.24] is up.
+[2023-03-02 22:54:46.245] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:54:46.346] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:55:02.719] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:55:02.719] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:55:02.746] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:55:02.746] [nas] [info] PDU Session establishment is successful PSI[2]
+[2023-03-02 22:55:02.786] [app] [info] Connection setup for PDU session[2] is successful, TUN interface[uesimtun1, 10.45.0.25] is up.
+[2023-03-02 22:55:04.378] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:55:04.378] [nas] [debug] Sending PDU Session Release Request for PSI[2]
+[2023-03-02 22:55:04.390] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:55:04.391] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:55:04.406] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:55:04.406] [nas] [debug] Performing local release of PDU session[2]
+[2023-03-02 22:55:05.460] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:55:05.460] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:55:05.471] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:55:05.471] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:55:05.510] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.26] is up.
+[2023-03-02 22:55:10.409] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 22:55:10.419] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 22:55:10.419] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:55:10.419] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 22:55:10.423] [rrc] [debug] RRC Release received
+[2023-03-02 22:55:10.432] [nas] [debug] De-registration accept received
+[2023-03-02 22:55:10.432] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 22:55:10.432] [nas] [info] De-registration is successful
+[2023-03-02 22:55:10.432] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 22:55:10.432] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:55:10.432] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 22:55:10.446] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:55:10.446] [nas] [debug] Sending Initial Registration
+[2023-03-02 22:55:10.446] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 22:55:10.446] [rrc] [info] RRC connection established
+[2023-03-02 22:55:10.446] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 22:55:10.447] [nas] [debug] Deleting NAS security context
+[2023-03-02 22:55:10.447] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 22:55:10.447] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 22:55:10.630] [nas] [debug] Authentication Request received
+[2023-03-02 22:55:10.634] [nas] [debug] Security Mode Command received
+[2023-03-02 22:55:10.634] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 22:55:10.645] [nas] [debug] Registration accept received
+[2023-03-02 22:55:10.645] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:55:10.645] [nas] [debug] Sending Registration Complete
+[2023-03-02 22:55:10.645] [nas] [info] Initial Registration is successful
+[2023-03-02 22:55:10.645] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:55:10.645] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:55:10.848] [nas] [debug] Configuration Update Command received
+[2023-03-02 22:55:10.858] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:55:10.858] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:55:10.895] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.27] is up.
+[2023-03-02 22:55:16.436] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:55:16.537] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:55:32.749] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:55:32.753] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:55:32.762] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:55:32.772] [nas] [info] PDU Session establishment is successful PSI[2]
+[2023-03-02 22:55:32.805] [app] [info] Connection setup for PDU session[2] is successful, TUN interface[uesimtun1, 10.45.0.28] is up.
+[2023-03-02 22:55:34.575] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:55:34.676] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:55:50.767] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:55:50.767] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:55:50.775] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:55:50.775] [nas] [info] PDU Session establishment is successful PSI[3]
+[2023-03-02 22:55:50.814] [app] [info] Connection setup for PDU session[3] is successful, TUN interface[uesimtun2, 10.45.0.29] is up.
+[2023-03-02 22:55:52.729] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:55:52.755] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:55:52.755] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:55:58.759] [nas] [debug] Sending PDU Session Release Request for PSI[2]
+[2023-03-02 22:55:58.759] [nas] [debug] Sending PDU Session Release Request for PSI[3]
+[2023-03-02 22:55:58.770] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:55:58.770] [nas] [debug] Performing local release of PDU session[2]
+[2023-03-02 22:55:58.776] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:55:58.776] [nas] [debug] Performing local release of PDU session[3]
+[2023-03-02 22:55:59.487] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:55:59.487] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:55:59.495] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:55:59.495] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:55:59.535] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.30] is up.
+[2023-03-02 22:56:04.782] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:56:04.796] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:56:04.796] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:56:04.992] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:56:04.993] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:56:21.809] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:56:21.809] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:56:21.819] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:56:21.819] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:56:21.837] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.32] is up.
+[2023-03-02 22:56:22.826] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:56:22.927] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:56:38.826] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:56:38.831] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:56:38.840] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:56:38.840] [nas] [info] PDU Session establishment is successful PSI[2]
+[2023-03-02 22:56:38.875] [app] [info] Connection setup for PDU session[2] is successful, TUN interface[uesimtun1, 10.45.0.33] is up.
+[2023-03-02 22:56:40.969] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:56:40.969] [nas] [debug] Sending PDU Session Release Request for PSI[2]
+[2023-03-02 22:56:40.982] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:56:40.983] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:56:40.991] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:56:40.991] [nas] [debug] Performing local release of PDU session[2]
+[2023-03-02 22:56:41.333] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:56:41.333] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:56:41.400] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:56:41.400] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:56:41.436] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.34] is up.
+[2023-03-02 22:56:46.995] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 22:56:47.005] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 22:56:47.005] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:56:47.005] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 22:56:47.016] [rrc] [debug] RRC Release received
+[2023-03-02 22:56:47.016] [nas] [debug] De-registration accept received
+[2023-03-02 22:56:47.016] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 22:56:47.016] [nas] [info] De-registration is successful
+[2023-03-02 22:56:47.016] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 22:56:47.016] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:56:47.016] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 22:56:47.024] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:56:47.024] [nas] [debug] Sending Initial Registration
+[2023-03-02 22:56:47.024] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 22:56:47.024] [nas] [debug] Deleting NAS security context
+[2023-03-02 22:56:47.024] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 22:56:47.026] [rrc] [info] RRC connection established
+[2023-03-02 22:56:47.026] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 22:56:47.026] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 22:56:47.227] [nas] [debug] Authentication Request received
+[2023-03-02 22:56:47.231] [nas] [debug] Security Mode Command received
+[2023-03-02 22:56:47.231] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 22:56:47.239] [nas] [debug] Registration accept received
+[2023-03-02 22:56:47.239] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:56:47.239] [nas] [debug] Sending Registration Complete
+[2023-03-02 22:56:47.239] [nas] [info] Initial Registration is successful
+[2023-03-02 22:56:47.239] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:56:47.239] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:56:47.444] [nas] [debug] Configuration Update Command received
+[2023-03-02 22:56:47.450] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:56:47.451] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:56:47.481] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.35] is up.
+[2023-03-02 22:56:53.025] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:56:53.038] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:56:53.038] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:56:53.444] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:56:53.445] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:56:53.454] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:56:53.454] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:56:53.474] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.36] is up.
+[2023-03-02 22:56:59.058] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:56:59.159] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:57:15.863] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:57:15.869] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:57:15.879] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:57:15.879] [nas] [info] PDU Session establishment is successful PSI[2]
+[2023-03-02 22:57:15.913] [app] [info] Connection setup for PDU session[2] is successful, TUN interface[uesimtun1, 10.45.0.37] is up.
+[2023-03-02 22:57:17.198] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:57:17.223] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:57:17.223] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:57:23.256] [nas] [debug] Sending PDU Session Release Request for PSI[2]
+[2023-03-02 22:57:23.271] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:57:23.271] [nas] [debug] Performing local release of PDU session[2]
+[2023-03-02 22:57:24.272] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:57:24.272] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:57:24.281] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:57:24.281] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:57:24.320] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.38] is up.
+[2023-03-02 22:57:29.290] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:57:29.391] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:57:45.928] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:57:45.933] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:57:45.943] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:57:45.944] [nas] [info] PDU Session establishment is successful PSI[2]
+[2023-03-02 22:57:45.987] [app] [info] Connection setup for PDU session[2] is successful, TUN interface[uesimtun1, 10.45.0.39] is up.
+[2023-03-02 22:57:47.453] [nas] [debug] Sending PDU Session Release Request for PSI[2]
+[2023-03-02 22:57:47.468] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:57:47.468] [nas] [debug] Performing local release of PDU session[2]
+[2023-03-02 22:57:53.514] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:57:53.575] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:57:53.575] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:57:54.020] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:57:54.021] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:57:54.032] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:57:54.032] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:57:54.083] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.40] is up.
+[2023-03-02 22:57:59.549] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 22:57:59.559] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 22:57:59.559] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:57:59.559] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 22:57:59.569] [rrc] [debug] RRC Release received
+[2023-03-02 22:57:59.569] [nas] [debug] De-registration accept received
+[2023-03-02 22:57:59.569] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 22:57:59.569] [nas] [info] De-registration is successful
+[2023-03-02 22:57:59.569] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 22:57:59.569] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:57:59.569] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 22:57:59.570] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:57:59.570] [nas] [debug] Sending Initial Registration
+[2023-03-02 22:57:59.570] [nas] [debug] Deleting NAS security context
+[2023-03-02 22:57:59.570] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 22:57:59.570] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 22:57:59.572] [rrc] [info] RRC connection established
+[2023-03-02 22:57:59.572] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 22:57:59.573] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 22:57:59.767] [nas] [debug] Authentication Request received
+[2023-03-02 22:57:59.773] [nas] [debug] Security Mode Command received
+[2023-03-02 22:57:59.773] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 22:57:59.780] [nas] [debug] Registration accept received
+[2023-03-02 22:57:59.780] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:57:59.780] [nas] [debug] Sending Registration Complete
+[2023-03-02 22:57:59.780] [nas] [info] Initial Registration is successful
+[2023-03-02 22:57:59.780] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:57:59.785] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:57:59.988] [nas] [debug] Configuration Update Command received
+[2023-03-02 22:58:00.005] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:58:00.005] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:58:00.064] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.41] is up.
+[2023-03-02 22:58:05.579] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:58:05.586] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:58:05.586] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:58:06.131] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:58:06.137] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:58:06.160] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:58:06.161] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:58:06.209] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.42] is up.
+[2023-03-02 22:58:11.607] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 22:58:11.617] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 22:58:11.617] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:58:11.617] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 22:58:11.628] [rrc] [debug] RRC Release received
+[2023-03-02 22:58:11.628] [nas] [debug] De-registration accept received
+[2023-03-02 22:58:11.628] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 22:58:11.628] [nas] [info] De-registration is successful
+[2023-03-02 22:58:11.628] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 22:58:11.628] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:58:11.628] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 22:58:11.644] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:58:11.644] [nas] [debug] Sending Initial Registration
+[2023-03-02 22:58:11.644] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 22:58:11.645] [nas] [debug] Deleting NAS security context
+[2023-03-02 22:58:11.645] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 22:58:11.645] [rrc] [info] RRC connection established
+[2023-03-02 22:58:11.645] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 22:58:11.646] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 22:58:11.831] [nas] [debug] Authentication Request received
+[2023-03-02 22:58:11.835] [nas] [debug] Security Mode Command received
+[2023-03-02 22:58:11.835] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 22:58:11.844] [nas] [debug] Registration accept received
+[2023-03-02 22:58:11.844] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:58:11.844] [nas] [debug] Sending Registration Complete
+[2023-03-02 22:58:11.844] [nas] [info] Initial Registration is successful
+[2023-03-02 22:58:11.844] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:58:11.844] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:58:12.049] [nas] [debug] Configuration Update Command received
+[2023-03-02 22:58:12.056] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:58:12.073] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:58:12.107] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.43] is up.
+[2023-03-02 22:58:17.637] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:58:17.738] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:58:33.981] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:58:33.981] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:58:33.991] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:58:33.991] [nas] [info] PDU Session establishment is successful PSI[2]
+[2023-03-02 22:58:34.014] [app] [info] Connection setup for PDU session[2] is successful, TUN interface[uesimtun1, 10.45.0.44] is up.
+[2023-03-02 22:58:35.778] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 22:58:35.788] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 22:58:35.788] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:58:35.788] [nas] [debug] Performing local release of PDU session[2]
+[2023-03-02 22:58:35.788] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 22:58:35.792] [rrc] [debug] RRC Release received
+[2023-03-02 22:58:35.792] [nas] [debug] De-registration accept received
+[2023-03-02 22:58:35.792] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 22:58:35.792] [nas] [info] De-registration is successful
+[2023-03-02 22:58:35.792] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 22:58:35.792] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:58:35.792] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 22:58:35.798] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:58:35.798] [nas] [debug] Sending Initial Registration
+[2023-03-02 22:58:35.798] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 22:58:35.798] [rrc] [info] RRC connection established
+[2023-03-02 22:58:35.798] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 22:58:35.798] [nas] [debug] Deleting NAS security context
+[2023-03-02 22:58:35.798] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 22:58:35.798] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 22:58:36.003] [nas] [debug] Authentication Request received
+[2023-03-02 22:58:36.008] [nas] [debug] Security Mode Command received
+[2023-03-02 22:58:36.008] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 22:58:36.015] [nas] [debug] Registration accept received
+[2023-03-02 22:58:36.015] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:58:36.015] [nas] [debug] Sending Registration Complete
+[2023-03-02 22:58:36.015] [nas] [info] Initial Registration is successful
+[2023-03-02 22:58:36.015] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:58:36.015] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:58:36.224] [nas] [debug] Configuration Update Command received
+[2023-03-02 22:58:36.231] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:58:36.231] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:58:36.266] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.45] is up.
+[2023-03-02 22:58:41.802] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:58:41.816] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:58:41.816] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:58:42.474] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:58:42.474] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:58:42.484] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:58:42.484] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:58:42.515] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.46] is up.
+[2023-03-02 22:58:47.830] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:58:47.844] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:58:47.844] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:58:47.979] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:58:47.979] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:59:04.011] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:59:04.011] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:59:04.022] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:59:04.022] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:59:04.074] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.48] is up.
+[2023-03-02 22:59:05.874] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:59:05.886] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:59:05.886] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:59:06.702] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:59:06.702] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:59:06.711] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:59:06.711] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:59:06.749] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.49] is up.
+[2023-03-02 22:59:11.897] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 22:59:11.907] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 22:59:11.907] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:59:11.907] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 22:59:11.919] [rrc] [debug] RRC Release received
+[2023-03-02 22:59:11.919] [nas] [debug] De-registration accept received
+[2023-03-02 22:59:11.919] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 22:59:11.919] [nas] [info] De-registration is successful
+[2023-03-02 22:59:11.919] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 22:59:11.919] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:59:11.919] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 22:59:11.920] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:59:11.920] [nas] [debug] Sending Initial Registration
+[2023-03-02 22:59:11.920] [nas] [debug] Deleting NAS security context
+[2023-03-02 22:59:11.920] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 22:59:11.920] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 22:59:11.925] [rrc] [info] RRC connection established
+[2023-03-02 22:59:11.925] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 22:59:11.925] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 22:59:18.132] [nas] [debug] Authentication Request received
+[2023-03-02 22:59:24.138] [nas] [debug] Security Mode Command received
+[2023-03-02 22:59:24.138] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 22:59:24.144] [nas] [debug] Registration accept received
+[2023-03-02 22:59:24.144] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 22:59:24.144] [nas] [debug] Sending Registration Complete
+[2023-03-02 22:59:24.144] [nas] [info] Initial Registration is successful
+[2023-03-02 22:59:24.144] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:59:24.144] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:59:24.351] [nas] [debug] Configuration Update Command received
+[2023-03-02 22:59:24.357] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:59:24.357] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:59:24.394] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.50] is up.
+[2023-03-02 22:59:29.941] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:59:30.043] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 22:59:46.070] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 22:59:46.070] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:59:46.078] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:59:46.078] [nas] [info] PDU Session establishment is successful PSI[2]
+[2023-03-02 22:59:46.107] [app] [info] Connection setup for PDU session[2] is successful, TUN interface[uesimtun1, 10.45.0.51] is up.
+[2023-03-02 22:59:48.090] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 22:59:48.118] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:59:48.118] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 22:59:54.132] [nas] [debug] Sending PDU Session Release Request for PSI[2]
+[2023-03-02 22:59:54.140] [nas] [debug] PDU Session Release Command received
+[2023-03-02 22:59:54.140] [nas] [debug] Performing local release of PDU session[2]
+[2023-03-02 22:59:55.146] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 22:59:55.153] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 22:59:55.162] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 22:59:55.164] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 22:59:55.206] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.52] is up.
+[2023-03-02 23:00:00.163] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 23:00:00.168] [nas] [debug] PDU Session Release Command received
+[2023-03-02 23:00:00.168] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:00:00.651] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:00:00.657] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:00:00.666] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:00:00.666] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:00:00.703] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.53] is up.
+[2023-03-02 23:00:06.199] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 23:00:06.204] [nas] [debug] PDU Session Release Command received
+[2023-03-02 23:00:06.204] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:00:07.257] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:00:07.257] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:00:07.265] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:00:07.265] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:00:07.318] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.54] is up.
+[2023-03-02 23:00:12.225] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 23:00:12.240] [nas] [debug] PDU Session Release Command received
+[2023-03-02 23:00:12.240] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:00:12.762] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:00:12.762] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:00:12.770] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:00:12.770] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:00:12.808] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.55] is up.
+[2023-03-02 23:00:18.245] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 23:00:18.256] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 23:00:18.256] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:00:18.256] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 23:00:18.267] [rrc] [debug] RRC Release received
+[2023-03-02 23:00:18.267] [nas] [debug] De-registration accept received
+[2023-03-02 23:00:18.267] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 23:00:18.267] [nas] [info] De-registration is successful
+[2023-03-02 23:00:18.267] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 23:00:18.267] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 23:00:18.267] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 23:00:18.289] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:00:18.289] [nas] [debug] Sending Initial Registration
+[2023-03-02 23:00:18.289] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 23:00:18.289] [nas] [debug] Deleting NAS security context
+[2023-03-02 23:00:18.289] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 23:00:18.292] [rrc] [info] RRC connection established
+[2023-03-02 23:00:18.292] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 23:00:18.292] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 23:00:24.477] [nas] [debug] Authentication Request received
+[2023-03-02 23:00:30.483] [nas] [debug] Security Mode Command received
+[2023-03-02 23:00:30.483] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 23:00:30.490] [nas] [debug] Registration accept received
+[2023-03-02 23:00:30.490] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 23:00:30.490] [nas] [debug] Sending Registration Complete
+[2023-03-02 23:00:30.490] [nas] [info] Initial Registration is successful
+[2023-03-02 23:00:30.490] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:00:30.490] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:00:30.693] [nas] [debug] Configuration Update Command received
+[2023-03-02 23:00:30.700] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:00:30.700] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:00:30.741] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.56] is up.
+[2023-03-02 23:00:36.296] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 23:00:36.306] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 23:00:36.306] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:00:36.306] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 23:00:36.314] [nas] [debug] De-registration accept received
+[2023-03-02 23:00:36.314] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 23:00:36.314] [nas] [info] De-registration is successful
+[2023-03-02 23:00:36.314] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 23:00:36.314] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 23:00:36.314] [nas] [debug] Sending Initial Registration
+[2023-03-02 23:00:36.314] [nas] [debug] Deleting NAS security context
+[2023-03-02 23:00:36.314] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 23:00:36.317] [rrc] [debug] RRC Release received
+[2023-03-02 23:00:36.317] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 23:00:36.317] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 23:00:36.317] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 23:00:36.317] [nas] [info] UE switches to state [5U2-NOT-UPDATED]
+[2023-03-02 23:00:36.317] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-03-02 23:00:36.317] [rrc] [info] RRC connection established
+[2023-03-02 23:00:36.317] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 23:00:36.318] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 23:00:42.521] [nas] [debug] Authentication Request received
+[2023-03-02 23:00:47.148] [nas] [debug] NAS timer[3511] expired [1]
+[2023-03-02 23:00:47.148] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-03-02 23:00:47.148] [nas] [debug] Sending Initial Registration
+[2023-03-02 23:00:47.148] [nas] [debug] Deleting NAS security context
+[2023-03-02 23:00:47.148] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 23:00:48.526] [nas] [debug] Security Mode Command received
+[2023-03-02 23:00:48.526] [nas] [error] Security context with ngKSI[6] not found
+[2023-03-02 23:00:48.526] [nas] [error] Rejecting Security Mode Command with cause [SEC_MODE_REJECTED_UNSPECIFIED]
+[2023-03-02 23:00:48.527] [rrc] [debug] RRC Release received
+[2023-03-02 23:00:48.527] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 23:00:48.527] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 23:00:48.527] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-03-02 23:00:59.160] [nas] [debug] NAS timer[3511] expired [1]
+[2023-03-02 23:00:59.160] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-03-02 23:00:59.160] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:00:59.160] [nas] [debug] Sending Initial Registration
+[2023-03-02 23:00:59.160] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 23:00:59.160] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 23:00:59.161] [rrc] [info] RRC connection established
+[2023-03-02 23:00:59.161] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 23:00:59.161] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 23:01:05.165] [nas] [debug] Authentication Request received
+[2023-03-02 23:01:11.170] [nas] [debug] Security Mode Command received
+[2023-03-02 23:01:11.170] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 23:01:11.180] [nas] [debug] Registration accept received
+[2023-03-02 23:01:11.180] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 23:01:11.180] [nas] [info] UE switches to state [5U1-UPDATED]
+[2023-03-02 23:01:11.180] [nas] [debug] Sending Registration Complete
+[2023-03-02 23:01:11.180] [nas] [info] Initial Registration is successful
+[2023-03-02 23:01:11.180] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:01:11.180] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:01:11.380] [nas] [debug] Configuration Update Command received
+[2023-03-02 23:01:11.387] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:01:11.387] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:01:11.425] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.57] is up.
+[2023-03-02 23:01:12.374] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 23:01:12.381] [nas] [debug] PDU Session Release Command received
+[2023-03-02 23:01:12.381] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:01:13.391] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:01:13.391] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:01:13.402] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:01:13.402] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:01:13.450] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.58] is up.
+[2023-03-02 23:01:18.397] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 23:01:18.410] [nas] [debug] PDU Session Release Command received
+[2023-03-02 23:01:18.410] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:01:18.896] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:01:18.896] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:01:18.904] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:01:18.904] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:01:18.952] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.59] is up.
+[2023-03-02 23:01:24.429] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 23:01:24.436] [nas] [debug] PDU Session Release Command received
+[2023-03-02 23:01:24.436] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:01:25.502] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:01:25.505] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:01:25.514] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:01:25.515] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:01:25.555] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.60] is up.
+[2023-03-02 23:01:30.450] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 23:01:30.460] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 23:01:30.460] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:01:30.460] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 23:01:30.470] [nas] [debug] De-registration accept received
+[2023-03-02 23:01:30.470] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 23:01:30.470] [nas] [info] De-registration is successful
+[2023-03-02 23:01:30.470] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 23:01:30.470] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 23:01:30.470] [nas] [debug] Sending Initial Registration
+[2023-03-02 23:01:30.470] [nas] [debug] Deleting NAS security context
+[2023-03-02 23:01:30.470] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 23:01:30.475] [rrc] [debug] RRC Release received
+[2023-03-02 23:01:30.475] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 23:01:30.475] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 23:01:30.475] [nas] [info] UE switches to state [5U2-NOT-UPDATED]
+[2023-03-02 23:01:30.475] [nas] [info] UE switches to state [MM-DEREGISTERED/ATTEMPTING-REGISTRATION]
+[2023-03-02 23:01:41.202] [nas] [debug] NAS timer[3511] expired [1]
+[2023-03-02 23:01:41.202] [nas] [debug] Initial registration required due to [T3511-EXPIRY-IN-ATT-REG]
+[2023-03-02 23:01:41.210] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:01:41.210] [nas] [debug] Sending Initial Registration
+[2023-03-02 23:01:41.210] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 23:01:41.210] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 23:01:41.210] [rrc] [info] RRC connection established
+[2023-03-02 23:01:41.210] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 23:01:41.210] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 23:01:47.213] [nas] [debug] Authentication Request received
+[2023-03-02 23:01:53.218] [nas] [debug] Security Mode Command received
+[2023-03-02 23:01:53.218] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 23:01:53.229] [nas] [debug] Registration accept received
+[2023-03-02 23:01:53.229] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 23:01:53.229] [nas] [info] UE switches to state [5U1-UPDATED]
+[2023-03-02 23:01:53.229] [nas] [debug] Sending Registration Complete
+[2023-03-02 23:01:53.229] [nas] [info] Initial Registration is successful
+[2023-03-02 23:01:53.229] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:01:53.237] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:01:53.432] [nas] [debug] Configuration Update Command received
+[2023-03-02 23:01:53.439] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:01:53.439] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:01:53.470] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.61] is up.
+[2023-03-02 23:01:54.497] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 23:01:54.507] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 23:01:54.507] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:01:54.507] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 23:01:54.516] [rrc] [debug] RRC Release received
+[2023-03-02 23:01:54.516] [nas] [debug] De-registration accept received
+[2023-03-02 23:01:54.516] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 23:01:54.516] [nas] [info] De-registration is successful
+[2023-03-02 23:01:54.516] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 23:01:54.516] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 23:01:54.516] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 23:01:54.529] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:01:54.530] [nas] [debug] Sending Initial Registration
+[2023-03-02 23:01:54.530] [nas] [debug] Deleting NAS security context
+[2023-03-02 23:01:54.530] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 23:01:54.530] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 23:01:54.531] [rrc] [info] RRC connection established
+[2023-03-02 23:01:54.531] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 23:01:54.531] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 23:02:00.723] [nas] [debug] Authentication Request received
+[2023-03-02 23:02:06.729] [nas] [debug] Security Mode Command received
+[2023-03-02 23:02:06.729] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 23:02:06.737] [nas] [debug] Registration accept received
+[2023-03-02 23:02:06.737] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 23:02:06.737] [nas] [debug] Sending Registration Complete
+[2023-03-02 23:02:06.737] [nas] [info] Initial Registration is successful
+[2023-03-02 23:02:06.737] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:02:06.741] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:02:06.940] [nas] [debug] Configuration Update Command received
+[2023-03-02 23:02:06.947] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:02:06.949] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:02:06.980] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.62] is up.
+[2023-03-02 23:02:12.538] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:02:12.639] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 23:02:29.250] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 23:02:29.254] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:02:29.264] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:02:29.273] [nas] [info] PDU Session establishment is successful PSI[2]
+[2023-03-02 23:02:29.291] [app] [info] Connection setup for PDU session[2] is successful, TUN interface[uesimtun1, 10.45.0.63] is up.
+[2023-03-02 23:02:30.689] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 23:02:30.715] [nas] [debug] PDU Session Release Command received
+[2023-03-02 23:02:30.715] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:02:36.727] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:02:36.828] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 23:02:53.278] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 23:02:53.285] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:02:53.294] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:02:53.295] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:02:53.336] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.64] is up.
+[2023-03-02 23:02:54.870] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:02:54.971] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 23:03:11.296] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 23:03:11.296] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:03:11.305] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:03:11.305] [nas] [info] PDU Session establishment is successful PSI[3]
+[2023-03-02 23:03:11.381] [app] [info] Connection setup for PDU session[3] is successful, TUN interface[uesimtun2, 10.45.0.65] is up.
+[2023-03-02 23:03:13.018] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 23:03:13.029] [nas] [debug] Starting de-registration procedure due to [NORMAL]
+[2023-03-02 23:03:13.029] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:03:13.029] [nas] [debug] Performing local release of PDU session[2]
+[2023-03-02 23:03:13.029] [nas] [debug] Performing local release of PDU session[3]
+[2023-03-02 23:03:13.029] [nas] [info] UE switches to state [MM-DEREGISTER-INITIATED]
+[2023-03-02 23:03:13.042] [rrc] [debug] RRC Release received
+[2023-03-02 23:03:13.042] [nas] [debug] De-registration accept received
+[2023-03-02 23:03:13.042] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2023-03-02 23:03:13.042] [nas] [info] De-registration is successful
+[2023-03-02 23:03:13.042] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 23:03:13.042] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2023-03-02 23:03:13.042] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2023-03-02 23:03:13.042] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:03:13.042] [nas] [debug] Sending Initial Registration
+[2023-03-02 23:03:13.042] [nas] [debug] Deleting NAS security context
+[2023-03-02 23:03:13.042] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2023-03-02 23:03:13.042] [rrc] [debug] Sending RRC Setup Request
+[2023-03-02 23:03:13.045] [rrc] [info] RRC connection established
+[2023-03-02 23:03:13.045] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2023-03-02 23:03:13.048] [nas] [info] UE switches to state [CM-CONNECTED]
+[2023-03-02 23:03:19.254] [nas] [debug] Authentication Request received
+[2023-03-02 23:03:25.258] [nas] [debug] Security Mode Command received
+[2023-03-02 23:03:25.258] [nas] [debug] Selected integrity[2] ciphering[0]
+[2023-03-02 23:03:25.264] [nas] [debug] Registration accept received
+[2023-03-02 23:03:25.264] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2023-03-02 23:03:25.264] [nas] [debug] Sending Registration Complete
+[2023-03-02 23:03:25.264] [nas] [info] Initial Registration is successful
+[2023-03-02 23:03:25.264] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:03:25.264] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:03:25.466] [nas] [debug] Configuration Update Command received
+[2023-03-02 23:03:25.472] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:03:25.472] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:03:25.511] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.66] is up.
+[2023-03-02 23:03:31.064] [nas] [debug] Sending PDU Session Release Request for PSI[1]
+[2023-03-02 23:03:31.071] [nas] [debug] PDU Session Release Command received
+[2023-03-02 23:03:31.071] [nas] [debug] Performing local release of PDU session[1]
+[2023-03-02 23:03:32.119] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:03:32.119] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:03:32.127] [nas] [debug] PDU Session Establishment Accept received
+[2023-03-02 23:03:32.127] [nas] [info] PDU Session establishment is successful PSI[1]
+[2023-03-02 23:03:32.147] [app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.67] is up.
+[2023-03-02 23:03:37.086] [nas] [debug] Sending PDU Session Establishment Request
+[2023-03-02 23:03:37.187] [nas] [error] No response from RRC from UAC checks, considering access attempt is barred
+[2023-03-02 23:03:53.338] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2023-03-02 23:03:53.338] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2023-03-02 23:03:53.343] [nas] [error] SM forwarding failure for message type[193] with cause[PAYLOAD_NOT_FORWARDED]
+[2023-03-02 23:03:53.343] [nas] [debug] Aborting SM procedure for PTI[1], PSI[2]
+[2023-03-02 23:04:09.913] [rrc] [debug] New signal detected for cell[2], total [2] cells in coverage
+[2023-03-02 23:04:10.915] [rrc] [debug] Signal lost for cell[1], total [1] cells in coverage
+[2023-03-02 23:04:10.915] [nas] [error] Radio link failure detected
+[2023-03-02 23:04:10.915] [nas] [info] UE switches to state [CM-IDLE]
+[2023-03-02 23:04:10.915] [nas] [info] UE switches to state [MM-REGISTERED/PS]
+[2023-03-02 23:04:10.915] [nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
+[2023-03-02 23:04:11.879] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:04:11.879] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:04:11.879] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:04:12.922] [rrc] [debug] New signal detected for cell[3], total [2] cells in coverage
+[2023-03-02 23:04:13.926] [rrc] [debug] Signal lost for cell[2], total [1] cells in coverage
+[2023-03-02 23:04:15.932] [rrc] [debug] New signal detected for cell[4], total [2] cells in coverage
+[2023-03-02 23:04:15.932] [nas] [info] UE switches to state [MM-REGISTERED/NO-CELL-AVAILABLE]
+[2023-03-02 23:04:16.936] [rrc] [debug] Signal lost for cell[3], total [1] cells in coverage
+[2023-03-02 23:04:18.941] [rrc] [debug] New signal detected for cell[5], total [2] cells in coverage
+[2023-03-02 23:04:19.944] [rrc] [debug] Signal lost for cell[4], total [1] cells in coverage
+[2023-03-02 23:04:21.951] [rrc] [debug] New signal detected for cell[6], total [2] cells in coverage
+[2023-03-02 23:04:22.954] [rrc] [debug] Signal lost for cell[5], total [1] cells in coverage
+[2023-03-02 23:04:24.960] [rrc] [debug] New signal detected for cell[7], total [2] cells in coverage
+[2023-03-02 23:04:25.963] [rrc] [debug] Signal lost for cell[6], total [1] cells in coverage
+[2023-03-02 23:04:27.970] [rrc] [debug] New signal detected for cell[8], total [2] cells in coverage
+[2023-03-02 23:04:28.973] [rrc] [debug] Signal lost for cell[7], total [1] cells in coverage
+[2023-03-02 23:04:30.979] [rrc] [debug] New signal detected for cell[9], total [2] cells in coverage
+[2023-03-02 23:04:31.982] [rrc] [debug] Signal lost for cell[8], total [1] cells in coverage
+[2023-03-02 23:04:33.988] [rrc] [debug] New signal detected for cell[10], total [2] cells in coverage
+[2023-03-02 23:04:34.991] [rrc] [debug] Signal lost for cell[9], total [1] cells in coverage
+[2023-03-02 23:04:36.997] [rrc] [debug] New signal detected for cell[11], total [2] cells in coverage
+[2023-03-02 23:04:37.999] [rrc] [debug] Signal lost for cell[10], total [1] cells in coverage
+[2023-03-02 23:04:40.004] [rrc] [debug] New signal detected for cell[12], total [2] cells in coverage
+[2023-03-02 23:04:41.007] [rrc] [debug] Signal lost for cell[11], total [1] cells in coverage
+[2023-03-02 23:04:41.891] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:04:41.891] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:04:41.891] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:04:43.014] [rrc] [debug] New signal detected for cell[13], total [2] cells in coverage
+[2023-03-02 23:04:44.017] [rrc] [debug] Signal lost for cell[12], total [1] cells in coverage
+[2023-03-02 23:04:46.023] [rrc] [debug] New signal detected for cell[14], total [2] cells in coverage
+[2023-03-02 23:04:47.026] [rrc] [debug] Signal lost for cell[13], total [1] cells in coverage
+[2023-03-02 23:04:49.032] [rrc] [debug] New signal detected for cell[15], total [2] cells in coverage
+[2023-03-02 23:04:50.036] [rrc] [debug] Signal lost for cell[14], total [1] cells in coverage
+[2023-03-02 23:04:52.042] [rrc] [debug] New signal detected for cell[16], total [2] cells in coverage
+[2023-03-02 23:04:53.045] [rrc] [debug] Signal lost for cell[15], total [1] cells in coverage
+[2023-03-02 23:04:55.052] [rrc] [debug] New signal detected for cell[17], total [2] cells in coverage
+[2023-03-02 23:04:56.055] [rrc] [debug] Signal lost for cell[16], total [1] cells in coverage
+[2023-03-02 23:04:58.062] [rrc] [debug] New signal detected for cell[18], total [2] cells in coverage
+[2023-03-02 23:04:59.065] [rrc] [debug] Signal lost for cell[17], total [1] cells in coverage
+[2023-03-02 23:05:01.071] [rrc] [debug] New signal detected for cell[19], total [2] cells in coverage
+[2023-03-02 23:05:02.074] [rrc] [debug] Signal lost for cell[18], total [1] cells in coverage
+[2023-03-02 23:05:04.079] [rrc] [debug] New signal detected for cell[20], total [2] cells in coverage
+[2023-03-02 23:05:05.082] [rrc] [debug] Signal lost for cell[19], total [1] cells in coverage
+[2023-03-02 23:05:07.089] [rrc] [debug] New signal detected for cell[21], total [2] cells in coverage
+[2023-03-02 23:05:08.092] [rrc] [debug] Signal lost for cell[20], total [1] cells in coverage
+[2023-03-02 23:05:10.098] [rrc] [debug] New signal detected for cell[22], total [2] cells in coverage
+[2023-03-02 23:05:11.101] [rrc] [debug] Signal lost for cell[21], total [1] cells in coverage
+[2023-03-02 23:05:11.903] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:05:11.903] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:05:11.903] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:05:13.106] [rrc] [debug] New signal detected for cell[23], total [2] cells in coverage
+[2023-03-02 23:05:14.109] [rrc] [debug] Signal lost for cell[22], total [1] cells in coverage
+[2023-03-02 23:05:16.115] [rrc] [debug] New signal detected for cell[24], total [2] cells in coverage
+[2023-03-02 23:05:17.117] [rrc] [debug] Signal lost for cell[23], total [1] cells in coverage
+[2023-03-02 23:05:19.123] [rrc] [debug] New signal detected for cell[25], total [2] cells in coverage
+[2023-03-02 23:05:20.126] [rrc] [debug] Signal lost for cell[24], total [1] cells in coverage
+[2023-03-02 23:05:22.132] [rrc] [debug] New signal detected for cell[26], total [2] cells in coverage
+[2023-03-02 23:05:23.135] [rrc] [debug] Signal lost for cell[25], total [1] cells in coverage
+[2023-03-02 23:05:25.141] [rrc] [debug] New signal detected for cell[27], total [2] cells in coverage
+[2023-03-02 23:05:26.144] [rrc] [debug] Signal lost for cell[26], total [1] cells in coverage
+[2023-03-02 23:05:28.149] [rrc] [debug] New signal detected for cell[28], total [2] cells in coverage
+[2023-03-02 23:05:29.152] [rrc] [debug] Signal lost for cell[27], total [1] cells in coverage
+[2023-03-02 23:05:31.158] [rrc] [debug] New signal detected for cell[29], total [2] cells in coverage
+[2023-03-02 23:05:32.160] [rrc] [debug] Signal lost for cell[28], total [1] cells in coverage
+[2023-03-02 23:05:34.166] [rrc] [debug] New signal detected for cell[30], total [2] cells in coverage
+[2023-03-02 23:05:35.169] [rrc] [debug] Signal lost for cell[29], total [1] cells in coverage
+[2023-03-02 23:05:37.174] [rrc] [debug] New signal detected for cell[31], total [2] cells in coverage
+[2023-03-02 23:05:38.177] [rrc] [debug] Signal lost for cell[30], total [1] cells in coverage
+[2023-03-02 23:05:40.183] [rrc] [debug] New signal detected for cell[32], total [2] cells in coverage
+[2023-03-02 23:05:41.186] [rrc] [debug] Signal lost for cell[31], total [1] cells in coverage
+[2023-03-02 23:05:41.915] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:05:41.915] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:05:41.915] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:05:43.191] [rrc] [debug] New signal detected for cell[33], total [2] cells in coverage
+[2023-03-02 23:05:44.193] [rrc] [debug] Signal lost for cell[32], total [1] cells in coverage
+[2023-03-02 23:05:46.199] [rrc] [debug] New signal detected for cell[34], total [2] cells in coverage
+[2023-03-02 23:05:47.201] [rrc] [debug] Signal lost for cell[33], total [1] cells in coverage
+[2023-03-02 23:05:49.208] [rrc] [debug] New signal detected for cell[35], total [2] cells in coverage
+[2023-03-02 23:05:50.210] [rrc] [debug] Signal lost for cell[34], total [1] cells in coverage
+[2023-03-02 23:05:50.210] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:05:52.215] [rrc] [debug] New signal detected for cell[36], total [2] cells in coverage
+[2023-03-02 23:05:52.215] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:05:53.217] [rrc] [debug] Signal lost for cell[35], total [1] cells in coverage
+[2023-03-02 23:05:55.223] [rrc] [debug] New signal detected for cell[37], total [2] cells in coverage
+[2023-03-02 23:05:56.226] [rrc] [debug] Signal lost for cell[36], total [1] cells in coverage
+[2023-03-02 23:05:58.233] [rrc] [debug] New signal detected for cell[38], total [2] cells in coverage
+[2023-03-02 23:05:59.235] [rrc] [debug] Signal lost for cell[37], total [1] cells in coverage
+[2023-03-02 23:06:01.240] [rrc] [debug] New signal detected for cell[39], total [2] cells in coverage
+[2023-03-02 23:06:02.242] [rrc] [debug] Signal lost for cell[38], total [1] cells in coverage
+[2023-03-02 23:06:04.248] [rrc] [debug] New signal detected for cell[40], total [2] cells in coverage
+[2023-03-02 23:06:05.251] [rrc] [debug] Signal lost for cell[39], total [1] cells in coverage
+[2023-03-02 23:06:07.258] [rrc] [debug] New signal detected for cell[41], total [2] cells in coverage
+[2023-03-02 23:06:08.260] [rrc] [debug] Signal lost for cell[40], total [1] cells in coverage
+[2023-03-02 23:06:10.265] [rrc] [debug] New signal detected for cell[42], total [2] cells in coverage
+[2023-03-02 23:06:10.265] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:06:11.268] [rrc] [debug] Signal lost for cell[41], total [1] cells in coverage
+[2023-03-02 23:06:11.927] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:06:11.927] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:06:11.927] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:06:13.273] [rrc] [debug] New signal detected for cell[43], total [2] cells in coverage
+[2023-03-02 23:06:14.275] [rrc] [debug] Signal lost for cell[42], total [1] cells in coverage
+[2023-03-02 23:06:16.282] [rrc] [debug] New signal detected for cell[44], total [2] cells in coverage
+[2023-03-02 23:06:17.285] [rrc] [debug] Signal lost for cell[43], total [1] cells in coverage
+[2023-03-02 23:06:19.291] [rrc] [debug] New signal detected for cell[45], total [2] cells in coverage
+[2023-03-02 23:06:20.294] [rrc] [debug] Signal lost for cell[44], total [1] cells in coverage
+[2023-03-02 23:06:22.299] [rrc] [debug] New signal detected for cell[46], total [2] cells in coverage
+[2023-03-02 23:06:23.303] [rrc] [debug] Signal lost for cell[45], total [1] cells in coverage
+[2023-03-02 23:06:25.308] [rrc] [debug] New signal detected for cell[47], total [2] cells in coverage
+[2023-03-02 23:06:26.312] [rrc] [debug] Signal lost for cell[46], total [1] cells in coverage
+[2023-03-02 23:06:28.320] [rrc] [debug] New signal detected for cell[48], total [2] cells in coverage
+[2023-03-02 23:06:29.322] [rrc] [debug] Signal lost for cell[47], total [1] cells in coverage
+[2023-03-02 23:06:31.328] [rrc] [debug] New signal detected for cell[49], total [2] cells in coverage
+[2023-03-02 23:06:32.330] [rrc] [debug] Signal lost for cell[48], total [1] cells in coverage
+[2023-03-02 23:06:34.335] [rrc] [debug] New signal detected for cell[50], total [2] cells in coverage
+[2023-03-02 23:06:35.337] [rrc] [debug] Signal lost for cell[49], total [1] cells in coverage
+[2023-03-02 23:06:37.343] [rrc] [debug] New signal detected for cell[51], total [2] cells in coverage
+[2023-03-02 23:06:38.346] [rrc] [debug] Signal lost for cell[50], total [1] cells in coverage
+[2023-03-02 23:06:40.352] [rrc] [debug] New signal detected for cell[52], total [2] cells in coverage
+[2023-03-02 23:06:41.355] [rrc] [debug] Signal lost for cell[51], total [1] cells in coverage
+[2023-03-02 23:06:41.939] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:06:41.939] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:06:41.939] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:06:43.361] [rrc] [debug] New signal detected for cell[53], total [2] cells in coverage
+[2023-03-02 23:06:44.363] [rrc] [debug] Signal lost for cell[52], total [1] cells in coverage
+[2023-03-02 23:06:46.370] [rrc] [debug] New signal detected for cell[54], total [2] cells in coverage
+[2023-03-02 23:06:47.373] [rrc] [debug] Signal lost for cell[53], total [1] cells in coverage
+[2023-03-02 23:06:49.379] [rrc] [debug] New signal detected for cell[55], total [2] cells in coverage
+[2023-03-02 23:06:50.381] [rrc] [debug] Signal lost for cell[54], total [1] cells in coverage
+[2023-03-02 23:06:52.388] [rrc] [debug] New signal detected for cell[56], total [2] cells in coverage
+[2023-03-02 23:06:53.391] [rrc] [debug] Signal lost for cell[55], total [1] cells in coverage
+[2023-03-02 23:06:55.397] [rrc] [debug] New signal detected for cell[57], total [2] cells in coverage
+[2023-03-02 23:06:56.399] [rrc] [debug] Signal lost for cell[56], total [1] cells in coverage
+[2023-03-02 23:06:58.406] [rrc] [debug] New signal detected for cell[58], total [2] cells in coverage
+[2023-03-02 23:06:59.408] [rrc] [debug] Signal lost for cell[57], total [1] cells in coverage
+[2023-03-02 23:07:01.413] [rrc] [debug] New signal detected for cell[59], total [2] cells in coverage
+[2023-03-02 23:07:02.417] [rrc] [debug] Signal lost for cell[58], total [1] cells in coverage
+[2023-03-02 23:07:04.422] [rrc] [debug] New signal detected for cell[60], total [2] cells in coverage
+[2023-03-02 23:07:05.424] [rrc] [debug] Signal lost for cell[59], total [1] cells in coverage
+[2023-03-02 23:07:07.431] [rrc] [debug] New signal detected for cell[61], total [2] cells in coverage
+[2023-03-02 23:07:08.434] [rrc] [debug] Signal lost for cell[60], total [1] cells in coverage
+[2023-03-02 23:07:10.440] [rrc] [debug] New signal detected for cell[62], total [2] cells in coverage
+[2023-03-02 23:07:11.443] [rrc] [debug] Signal lost for cell[61], total [1] cells in coverage
+[2023-03-02 23:07:11.444] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:07:11.951] [rrc] [warning] Acceptable cell selection failed in [1] cells. [1] no SI, [0] reserved, [0] barred, ftai [0]
+[2023-03-02 23:07:11.951] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:07:13.449] [rrc] [debug] New signal detected for cell[63], total [2] cells in coverage
+[2023-03-02 23:07:13.449] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:07:13.518] [nas] [debug] De-registration required due to [NORMAL]
+[2023-03-02 23:07:14.452] [rrc] [debug] Signal lost for cell[62], total [1] cells in coverage
+[2023-03-02 23:07:16.458] [rrc] [debug] New signal detected for cell[64], total [2] cells in coverage
+[2023-03-02 23:07:17.461] [rrc] [debug] Signal lost for cell[63], total [1] cells in coverage
+[2023-03-02 23:07:19.465] [rrc] [debug] New signal detected for cell[65], total [2] cells in coverage
+[2023-03-02 23:07:20.468] [rrc] [debug] Signal lost for cell[64], total [1] cells in coverage
+[2023-03-02 23:07:22.475] [rrc] [debug] New signal detected for cell[66], total [2] cells in coverage
+[2023-03-02 23:07:23.478] [rrc] [debug] Signal lost for cell[65], total [1] cells in coverage
+[2023-03-02 23:07:25.485] [rrc] [debug] New signal detected for cell[67], total [2] cells in coverage
+[2023-03-02 23:07:26.488] [rrc] [debug] Signal lost for cell[66], total [1] cells in coverage
+[2023-03-02 23:07:28.493] [rrc] [debug] New signal detected for cell[68], total [2] cells in coverage
+[2023-03-02 23:07:29.496] [rrc] [debug] Signal lost for cell[67], total [1] cells in coverage
+[2023-03-02 23:07:31.502] [rrc] [debug] New signal detected for cell[69], total [2] cells in coverage
+[2023-03-02 23:07:31.502] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:07:32.504] [rrc] [debug] Signal lost for cell[68], total [1] cells in coverage
+[2023-03-02 23:07:34.510] [rrc] [debug] New signal detected for cell[70], total [2] cells in coverage
+[2023-03-02 23:07:35.513] [rrc] [debug] Signal lost for cell[69], total [1] cells in coverage
+[2023-03-02 23:07:37.519] [rrc] [debug] New signal detected for cell[71], total [2] cells in coverage
+[2023-03-02 23:07:38.522] [rrc] [debug] Signal lost for cell[70], total [1] cells in coverage
+[2023-03-02 23:07:40.526] [rrc] [debug] New signal detected for cell[72], total [2] cells in coverage
+[2023-03-02 23:07:41.529] [rrc] [debug] Signal lost for cell[71], total [1] cells in coverage
+[2023-03-02 23:07:41.963] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:07:41.963] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:07:41.963] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:07:43.534] [rrc] [debug] New signal detected for cell[73], total [2] cells in coverage
+[2023-03-02 23:07:44.537] [rrc] [debug] Signal lost for cell[72], total [1] cells in coverage
+[2023-03-02 23:07:46.542] [rrc] [debug] New signal detected for cell[74], total [2] cells in coverage
+[2023-03-02 23:07:47.545] [rrc] [debug] Signal lost for cell[73], total [1] cells in coverage
+[2023-03-02 23:07:49.551] [rrc] [debug] New signal detected for cell[75], total [2] cells in coverage
+[2023-03-02 23:07:50.554] [rrc] [debug] Signal lost for cell[74], total [1] cells in coverage
+[2023-03-02 23:07:52.559] [rrc] [debug] New signal detected for cell[76], total [2] cells in coverage
+[2023-03-02 23:07:53.561] [rrc] [debug] Signal lost for cell[75], total [1] cells in coverage
+[2023-03-02 23:07:55.566] [rrc] [debug] New signal detected for cell[77], total [2] cells in coverage
+[2023-03-02 23:07:56.569] [rrc] [debug] Signal lost for cell[76], total [1] cells in coverage
+[2023-03-02 23:07:58.575] [rrc] [debug] New signal detected for cell[78], total [2] cells in coverage
+[2023-03-02 23:07:59.578] [rrc] [debug] Signal lost for cell[77], total [1] cells in coverage
+[2023-03-02 23:07:59.578] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:08:01.584] [rrc] [debug] New signal detected for cell[79], total [2] cells in coverage
+[2023-03-02 23:08:01.584] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:08:02.586] [rrc] [debug] Signal lost for cell[78], total [1] cells in coverage
+[2023-03-02 23:08:04.593] [rrc] [debug] New signal detected for cell[80], total [2] cells in coverage
+[2023-03-02 23:08:05.597] [rrc] [debug] Signal lost for cell[79], total [1] cells in coverage
+[2023-03-02 23:08:08.606] [rrc] [debug] Signal lost for cell[80], total [0] cells in coverage
+[2023-03-02 23:08:08.606] [rrc] [debug] New signal detected for cell[81], total [1] cells in coverage
+[2023-03-02 23:08:08.606] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:08:11.615] [rrc] [debug] New signal detected for cell[82], total [2] cells in coverage
+[2023-03-02 23:08:11.975] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:08:11.975] [rrc] [warning] Acceptable cell selection failed in [2] cells. [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:08:11.975] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:08:12.617] [rrc] [debug] Signal lost for cell[81], total [1] cells in coverage
+[2023-03-02 23:08:14.623] [rrc] [debug] New signal detected for cell[83], total [2] cells in coverage
+[2023-03-02 23:08:15.626] [rrc] [debug] Signal lost for cell[82], total [1] cells in coverage
+[2023-03-02 23:08:17.633] [rrc] [debug] New signal detected for cell[84], total [2] cells in coverage
+[2023-03-02 23:08:18.635] [rrc] [debug] Signal lost for cell[83], total [1] cells in coverage
+[2023-03-02 23:08:20.641] [rrc] [debug] New signal detected for cell[85], total [2] cells in coverage
+[2023-03-02 23:08:21.643] [rrc] [debug] Signal lost for cell[84], total [1] cells in coverage
+[2023-03-02 23:08:23.650] [rrc] [debug] New signal detected for cell[86], total [2] cells in coverage
+[2023-03-02 23:08:24.658] [rrc] [debug] Signal lost for cell[85], total [1] cells in coverage
+[2023-03-02 23:08:26.664] [rrc] [debug] New signal detected for cell[87], total [2] cells in coverage
+[2023-03-02 23:08:27.667] [rrc] [debug] Signal lost for cell[86], total [1] cells in coverage
+[2023-03-02 23:08:29.674] [rrc] [debug] New signal detected for cell[88], total [2] cells in coverage
+[2023-03-02 23:08:30.677] [rrc] [debug] Signal lost for cell[87], total [1] cells in coverage
+[2023-03-02 23:08:30.677] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:08:32.683] [rrc] [debug] New signal detected for cell[89], total [2] cells in coverage
+[2023-03-02 23:08:32.683] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:08:33.685] [rrc] [debug] Signal lost for cell[88], total [1] cells in coverage
+[2023-03-02 23:08:35.691] [rrc] [debug] New signal detected for cell[90], total [2] cells in coverage
+[2023-03-02 23:08:36.694] [rrc] [debug] Signal lost for cell[89], total [1] cells in coverage
+[2023-03-02 23:08:38.700] [rrc] [debug] New signal detected for cell[91], total [2] cells in coverage
+[2023-03-02 23:08:39.703] [rrc] [debug] Signal lost for cell[90], total [1] cells in coverage
+[2023-03-02 23:08:41.708] [rrc] [debug] New signal detected for cell[92], total [2] cells in coverage
+[2023-03-02 23:08:41.987] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:08:41.987] [rrc] [warning] Acceptable cell selection failed in [2] cells. [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:08:41.987] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:08:42.711] [rrc] [debug] Signal lost for cell[91], total [1] cells in coverage
+[2023-03-02 23:08:44.718] [rrc] [debug] New signal detected for cell[93], total [2] cells in coverage
+[2023-03-02 23:08:45.720] [rrc] [debug] Signal lost for cell[92], total [1] cells in coverage
+[2023-03-02 23:08:47.726] [rrc] [debug] New signal detected for cell[94], total [2] cells in coverage
+[2023-03-02 23:08:48.729] [rrc] [debug] Signal lost for cell[93], total [1] cells in coverage
+[2023-03-02 23:08:50.736] [rrc] [debug] New signal detected for cell[95], total [2] cells in coverage
+[2023-03-02 23:08:51.739] [rrc] [debug] Signal lost for cell[94], total [1] cells in coverage
+[2023-03-02 23:08:53.746] [rrc] [debug] New signal detected for cell[96], total [2] cells in coverage
+[2023-03-02 23:08:54.748] [rrc] [debug] Signal lost for cell[95], total [1] cells in coverage
+[2023-03-02 23:08:56.755] [rrc] [debug] New signal detected for cell[97], total [2] cells in coverage
+[2023-03-02 23:08:57.757] [rrc] [debug] Signal lost for cell[96], total [1] cells in coverage
+[2023-03-02 23:08:59.763] [rrc] [debug] New signal detected for cell[98], total [2] cells in coverage
+[2023-03-02 23:09:00.767] [rrc] [debug] Signal lost for cell[97], total [1] cells in coverage
+[2023-03-02 23:09:02.772] [rrc] [debug] New signal detected for cell[99], total [2] cells in coverage
+[2023-03-02 23:09:03.775] [rrc] [debug] Signal lost for cell[98], total [1] cells in coverage
+[2023-03-02 23:09:05.781] [rrc] [debug] New signal detected for cell[100], total [2] cells in coverage
+[2023-03-02 23:09:06.784] [rrc] [debug] Signal lost for cell[99], total [1] cells in coverage
+[2023-03-02 23:09:08.791] [rrc] [debug] New signal detected for cell[101], total [2] cells in coverage
+[2023-03-02 23:09:09.794] [rrc] [debug] Signal lost for cell[100], total [1] cells in coverage
+[2023-03-02 23:09:11.801] [rrc] [debug] New signal detected for cell[102], total [2] cells in coverage
+[2023-03-02 23:09:11.999] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [1] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:09:11.999] [rrc] [warning] Acceptable cell selection failed in [2] cells. [1] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:09:11.999] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:09:12.803] [rrc] [debug] Signal lost for cell[101], total [1] cells in coverage
+[2023-03-02 23:09:12.803] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:09:14.810] [rrc] [debug] New signal detected for cell[103], total [2] cells in coverage
+[2023-03-02 23:09:14.810] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:09:15.813] [rrc] [debug] Signal lost for cell[102], total [1] cells in coverage
+[2023-03-02 23:09:17.820] [rrc] [debug] New signal detected for cell[104], total [2] cells in coverage
+[2023-03-02 23:09:18.823] [rrc] [debug] Signal lost for cell[103], total [1] cells in coverage
+[2023-03-02 23:09:20.829] [rrc] [debug] New signal detected for cell[105], total [2] cells in coverage
+[2023-03-02 23:09:21.832] [rrc] [debug] Signal lost for cell[104], total [1] cells in coverage
+[2023-03-02 23:09:23.838] [rrc] [debug] New signal detected for cell[106], total [2] cells in coverage
+[2023-03-02 23:09:24.840] [rrc] [debug] Signal lost for cell[105], total [1] cells in coverage
+[2023-03-02 23:09:26.847] [rrc] [debug] New signal detected for cell[107], total [2] cells in coverage
+[2023-03-02 23:09:27.850] [rrc] [debug] Signal lost for cell[106], total [1] cells in coverage
+[2023-03-02 23:09:29.856] [rrc] [debug] New signal detected for cell[108], total [2] cells in coverage
+[2023-03-02 23:09:30.859] [rrc] [debug] Signal lost for cell[107], total [1] cells in coverage
+[2023-03-02 23:09:32.868] [rrc] [debug] New signal detected for cell[109], total [2] cells in coverage
+[2023-03-02 23:09:33.870] [rrc] [debug] Signal lost for cell[108], total [1] cells in coverage
+[2023-03-02 23:09:35.877] [rrc] [debug] New signal detected for cell[110], total [2] cells in coverage
+[2023-03-02 23:09:36.880] [rrc] [debug] Signal lost for cell[109], total [1] cells in coverage
+[2023-03-02 23:09:38.896] [rrc] [debug] New signal detected for cell[111], total [2] cells in coverage
+[2023-03-02 23:09:39.900] [rrc] [debug] Signal lost for cell[110], total [1] cells in coverage
+[2023-03-02 23:09:41.906] [rrc] [debug] New signal detected for cell[112], total [2] cells in coverage
+[2023-03-02 23:09:42.011] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:09:42.011] [rrc] [warning] Acceptable cell selection failed in [2] cells. [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:09:42.011] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:09:42.909] [rrc] [debug] Signal lost for cell[111], total [1] cells in coverage
+[2023-03-02 23:09:44.915] [rrc] [debug] New signal detected for cell[113], total [2] cells in coverage
+[2023-03-02 23:09:45.918] [rrc] [debug] Signal lost for cell[112], total [1] cells in coverage
+[2023-03-02 23:09:47.924] [rrc] [debug] New signal detected for cell[114], total [2] cells in coverage
+[2023-03-02 23:09:48.927] [rrc] [debug] Signal lost for cell[113], total [1] cells in coverage
+[2023-03-02 23:09:48.927] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:09:50.934] [rrc] [debug] New signal detected for cell[115], total [2] cells in coverage
+[2023-03-02 23:09:50.934] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:09:51.937] [rrc] [debug] Signal lost for cell[114], total [1] cells in coverage
+[2023-03-02 23:09:53.943] [rrc] [debug] New signal detected for cell[116], total [2] cells in coverage
+[2023-03-02 23:09:54.946] [rrc] [debug] Signal lost for cell[115], total [1] cells in coverage
+[2023-03-02 23:09:56.952] [rrc] [debug] New signal detected for cell[117], total [2] cells in coverage
+[2023-03-02 23:09:57.956] [rrc] [debug] Signal lost for cell[116], total [1] cells in coverage
+[2023-03-02 23:09:59.961] [rrc] [debug] New signal detected for cell[118], total [2] cells in coverage
+[2023-03-02 23:10:00.964] [rrc] [debug] Signal lost for cell[117], total [1] cells in coverage
+[2023-03-02 23:10:02.971] [rrc] [debug] New signal detected for cell[119], total [2] cells in coverage
+[2023-03-02 23:10:03.975] [rrc] [debug] Signal lost for cell[118], total [1] cells in coverage
+[2023-03-02 23:10:05.981] [rrc] [debug] New signal detected for cell[120], total [2] cells in coverage
+[2023-03-02 23:10:06.984] [rrc] [debug] Signal lost for cell[119], total [1] cells in coverage
+[2023-03-02 23:10:08.990] [rrc] [debug] New signal detected for cell[121], total [2] cells in coverage
+[2023-03-02 23:10:09.994] [rrc] [debug] Signal lost for cell[120], total [1] cells in coverage
+[2023-03-02 23:10:12.000] [rrc] [debug] New signal detected for cell[122], total [2] cells in coverage
+[2023-03-02 23:10:12.023] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:10:12.023] [rrc] [warning] Acceptable cell selection failed in [2] cells. [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:10:12.023] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:10:13.003] [rrc] [debug] Signal lost for cell[121], total [1] cells in coverage
+[2023-03-02 23:10:15.009] [rrc] [debug] New signal detected for cell[123], total [2] cells in coverage
+[2023-03-02 23:10:16.012] [rrc] [debug] Signal lost for cell[122], total [1] cells in coverage
+[2023-03-02 23:10:18.019] [rrc] [debug] New signal detected for cell[124], total [2] cells in coverage
+[2023-03-02 23:10:19.021] [rrc] [debug] Signal lost for cell[123], total [1] cells in coverage
+[2023-03-02 23:10:19.021] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:10:21.028] [rrc] [debug] New signal detected for cell[125], total [2] cells in coverage
+[2023-03-02 23:10:21.028] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:10:22.031] [rrc] [debug] Signal lost for cell[124], total [1] cells in coverage
+[2023-03-02 23:10:24.037] [rrc] [debug] New signal detected for cell[126], total [2] cells in coverage
+[2023-03-02 23:10:25.040] [rrc] [debug] Signal lost for cell[125], total [1] cells in coverage
+[2023-03-02 23:10:27.047] [rrc] [debug] New signal detected for cell[127], total [2] cells in coverage
+[2023-03-02 23:10:28.050] [rrc] [debug] Signal lost for cell[126], total [1] cells in coverage
+[2023-03-02 23:10:30.058] [rrc] [debug] New signal detected for cell[128], total [2] cells in coverage
+[2023-03-02 23:10:31.060] [rrc] [debug] Signal lost for cell[127], total [1] cells in coverage
+[2023-03-02 23:10:33.066] [rrc] [debug] New signal detected for cell[129], total [2] cells in coverage
+[2023-03-02 23:10:34.069] [rrc] [debug] Signal lost for cell[128], total [1] cells in coverage
+[2023-03-02 23:10:36.075] [rrc] [debug] New signal detected for cell[130], total [2] cells in coverage
+[2023-03-02 23:10:37.078] [rrc] [debug] Signal lost for cell[129], total [1] cells in coverage
+[2023-03-02 23:10:39.085] [rrc] [debug] New signal detected for cell[131], total [2] cells in coverage
+[2023-03-02 23:10:40.087] [rrc] [debug] Signal lost for cell[130], total [1] cells in coverage
+[2023-03-02 23:10:42.035] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:10:42.035] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:10:42.035] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:10:42.093] [rrc] [debug] New signal detected for cell[132], total [2] cells in coverage
+[2023-03-02 23:10:43.096] [rrc] [debug] Signal lost for cell[131], total [1] cells in coverage
+[2023-03-02 23:10:45.101] [rrc] [debug] New signal detected for cell[133], total [2] cells in coverage
+[2023-03-02 23:10:46.103] [rrc] [debug] Signal lost for cell[132], total [1] cells in coverage
+[2023-03-02 23:10:48.109] [rrc] [debug] New signal detected for cell[134], total [2] cells in coverage
+[2023-03-02 23:10:49.112] [rrc] [debug] Signal lost for cell[133], total [1] cells in coverage
+[2023-03-02 23:10:51.117] [rrc] [debug] New signal detected for cell[135], total [2] cells in coverage
+[2023-03-02 23:10:52.120] [rrc] [debug] Signal lost for cell[134], total [1] cells in coverage
+[2023-03-02 23:10:54.127] [rrc] [debug] New signal detected for cell[136], total [2] cells in coverage
+[2023-03-02 23:10:55.131] [rrc] [debug] Signal lost for cell[135], total [1] cells in coverage
+[2023-03-02 23:10:57.137] [rrc] [debug] New signal detected for cell[137], total [2] cells in coverage
+[2023-03-02 23:10:58.140] [rrc] [debug] Signal lost for cell[136], total [1] cells in coverage
+[2023-03-02 23:11:00.146] [rrc] [debug] New signal detected for cell[138], total [2] cells in coverage
+[2023-03-02 23:11:01.149] [rrc] [debug] Signal lost for cell[137], total [1] cells in coverage
+[2023-03-02 23:11:03.155] [rrc] [debug] New signal detected for cell[139], total [2] cells in coverage
+[2023-03-02 23:11:04.157] [rrc] [debug] Signal lost for cell[138], total [1] cells in coverage
+[2023-03-02 23:11:06.163] [rrc] [debug] New signal detected for cell[140], total [2] cells in coverage
+[2023-03-02 23:11:07.166] [rrc] [debug] Signal lost for cell[139], total [1] cells in coverage
+[2023-03-02 23:11:09.174] [rrc] [debug] New signal detected for cell[141], total [2] cells in coverage
+[2023-03-02 23:11:10.177] [rrc] [debug] Signal lost for cell[140], total [1] cells in coverage
+[2023-03-02 23:11:10.177] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:11:12.047] [rrc] [warning] Acceptable cell selection failed in [1] cells. [1] no SI, [0] reserved, [0] barred, ftai [0]
+[2023-03-02 23:11:12.047] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:11:12.184] [rrc] [debug] New signal detected for cell[142], total [2] cells in coverage
+[2023-03-02 23:11:12.185] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:11:13.188] [rrc] [debug] Signal lost for cell[141], total [1] cells in coverage
+[2023-03-02 23:11:15.194] [rrc] [debug] New signal detected for cell[143], total [2] cells in coverage
+[2023-03-02 23:11:16.198] [rrc] [debug] Signal lost for cell[142], total [1] cells in coverage
+[2023-03-02 23:11:18.210] [rrc] [debug] New signal detected for cell[144], total [2] cells in coverage
+[2023-03-02 23:11:19.213] [rrc] [debug] Signal lost for cell[143], total [1] cells in coverage
+[2023-03-02 23:11:21.220] [rrc] [debug] New signal detected for cell[145], total [2] cells in coverage
+[2023-03-02 23:11:22.222] [rrc] [debug] Signal lost for cell[144], total [1] cells in coverage
+[2023-03-02 23:11:24.228] [rrc] [debug] New signal detected for cell[146], total [2] cells in coverage
+[2023-03-02 23:11:25.231] [rrc] [debug] Signal lost for cell[145], total [1] cells in coverage
+[2023-03-02 23:11:27.237] [rrc] [debug] New signal detected for cell[147], total [2] cells in coverage
+[2023-03-02 23:11:28.240] [rrc] [debug] Signal lost for cell[146], total [1] cells in coverage
+[2023-03-02 23:11:30.247] [rrc] [debug] New signal detected for cell[148], total [2] cells in coverage
+[2023-03-02 23:11:31.249] [rrc] [debug] Signal lost for cell[147], total [1] cells in coverage
+[2023-03-02 23:11:33.257] [rrc] [debug] New signal detected for cell[149], total [2] cells in coverage
+[2023-03-02 23:11:34.259] [rrc] [debug] Signal lost for cell[148], total [1] cells in coverage
+[2023-03-02 23:11:36.265] [rrc] [debug] New signal detected for cell[150], total [2] cells in coverage
+[2023-03-02 23:11:37.269] [rrc] [debug] Signal lost for cell[149], total [1] cells in coverage
+[2023-03-02 23:11:39.274] [rrc] [debug] New signal detected for cell[151], total [2] cells in coverage
+[2023-03-02 23:11:40.277] [rrc] [debug] Signal lost for cell[150], total [1] cells in coverage
+[2023-03-02 23:11:42.059] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:11:42.059] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:11:42.059] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:11:42.284] [rrc] [debug] New signal detected for cell[152], total [2] cells in coverage
+[2023-03-02 23:11:43.287] [rrc] [debug] Signal lost for cell[151], total [1] cells in coverage
+[2023-03-02 23:11:45.294] [rrc] [debug] New signal detected for cell[153], total [2] cells in coverage
+[2023-03-02 23:11:46.296] [rrc] [debug] Signal lost for cell[152], total [1] cells in coverage
+[2023-03-02 23:11:48.303] [rrc] [debug] New signal detected for cell[154], total [2] cells in coverage
+[2023-03-02 23:11:49.306] [rrc] [debug] Signal lost for cell[153], total [1] cells in coverage
+[2023-03-02 23:11:51.312] [rrc] [debug] New signal detected for cell[155], total [2] cells in coverage
+[2023-03-02 23:11:52.315] [rrc] [debug] Signal lost for cell[154], total [1] cells in coverage
+[2023-03-02 23:11:54.320] [rrc] [debug] New signal detected for cell[156], total [2] cells in coverage
+[2023-03-02 23:11:55.323] [rrc] [debug] Signal lost for cell[155], total [1] cells in coverage
+[2023-03-02 23:11:57.329] [rrc] [debug] New signal detected for cell[157], total [2] cells in coverage
+[2023-03-02 23:11:58.336] [rrc] [debug] Signal lost for cell[156], total [1] cells in coverage
+[2023-03-02 23:12:00.342] [rrc] [debug] New signal detected for cell[158], total [2] cells in coverage
+[2023-03-02 23:12:01.346] [rrc] [debug] Signal lost for cell[157], total [1] cells in coverage
+[2023-03-02 23:12:03.351] [rrc] [debug] New signal detected for cell[159], total [2] cells in coverage
+[2023-03-02 23:12:04.354] [rrc] [debug] Signal lost for cell[158], total [1] cells in coverage
+[2023-03-02 23:12:06.362] [rrc] [debug] New signal detected for cell[160], total [2] cells in coverage
+[2023-03-02 23:12:07.366] [rrc] [debug] Signal lost for cell[159], total [1] cells in coverage
+[2023-03-02 23:12:09.372] [rrc] [debug] New signal detected for cell[161], total [2] cells in coverage
+[2023-03-02 23:12:10.376] [rrc] [debug] Signal lost for cell[160], total [1] cells in coverage
+[2023-03-02 23:12:12.071] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:12:12.071] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:12:12.071] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:12:12.382] [rrc] [debug] New signal detected for cell[162], total [2] cells in coverage
+[2023-03-02 23:12:13.385] [rrc] [debug] Signal lost for cell[161], total [1] cells in coverage
+[2023-03-02 23:12:13.385] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:12:15.392] [rrc] [debug] New signal detected for cell[163], total [2] cells in coverage
+[2023-03-02 23:12:15.392] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:12:16.395] [rrc] [debug] Signal lost for cell[162], total [1] cells in coverage
+[2023-03-02 23:12:18.400] [rrc] [debug] New signal detected for cell[164], total [2] cells in coverage
+[2023-03-02 23:12:19.403] [rrc] [debug] Signal lost for cell[163], total [1] cells in coverage
+[2023-03-02 23:12:21.409] [rrc] [debug] New signal detected for cell[165], total [2] cells in coverage
+[2023-03-02 23:12:21.409] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:12:22.411] [rrc] [debug] Signal lost for cell[164], total [1] cells in coverage
+[2023-03-02 23:12:24.418] [rrc] [debug] New signal detected for cell[166], total [2] cells in coverage
+[2023-03-02 23:12:25.422] [rrc] [debug] Signal lost for cell[165], total [1] cells in coverage
+[2023-03-02 23:12:27.428] [rrc] [debug] New signal detected for cell[167], total [2] cells in coverage
+[2023-03-02 23:12:28.431] [rrc] [debug] Signal lost for cell[166], total [1] cells in coverage
+[2023-03-02 23:12:30.438] [rrc] [debug] New signal detected for cell[168], total [2] cells in coverage
+[2023-03-02 23:12:31.441] [rrc] [debug] Signal lost for cell[167], total [1] cells in coverage
+[2023-03-02 23:12:33.447] [rrc] [debug] New signal detected for cell[169], total [2] cells in coverage
+[2023-03-02 23:12:33.447] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:12:34.450] [rrc] [debug] Signal lost for cell[168], total [1] cells in coverage
+[2023-03-02 23:12:36.457] [rrc] [debug] New signal detected for cell[170], total [2] cells in coverage
+[2023-03-02 23:12:37.459] [rrc] [debug] Signal lost for cell[169], total [1] cells in coverage
+[2023-03-02 23:12:39.466] [rrc] [debug] New signal detected for cell[171], total [2] cells in coverage
+[2023-03-02 23:12:39.466] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:12:40.469] [rrc] [debug] Signal lost for cell[170], total [1] cells in coverage
+[2023-03-02 23:12:42.083] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:12:42.083] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:12:42.083] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:12:42.476] [rrc] [debug] New signal detected for cell[172], total [2] cells in coverage
+[2023-03-02 23:12:43.479] [rrc] [debug] Signal lost for cell[171], total [1] cells in coverage
+[2023-03-02 23:12:45.486] [rrc] [debug] New signal detected for cell[173], total [2] cells in coverage
+[2023-03-02 23:12:46.489] [rrc] [debug] Signal lost for cell[172], total [1] cells in coverage
+[2023-03-02 23:12:48.494] [rrc] [debug] New signal detected for cell[174], total [2] cells in coverage
+[2023-03-02 23:12:49.497] [rrc] [debug] Signal lost for cell[173], total [1] cells in coverage
+[2023-03-02 23:12:51.503] [rrc] [debug] New signal detected for cell[175], total [2] cells in coverage
+[2023-03-02 23:12:52.506] [rrc] [debug] Signal lost for cell[174], total [1] cells in coverage
+[2023-03-02 23:12:52.506] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:12:54.512] [rrc] [debug] New signal detected for cell[176], total [2] cells in coverage
+[2023-03-02 23:12:54.512] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:12:55.515] [rrc] [debug] Signal lost for cell[175], total [1] cells in coverage
+[2023-03-02 23:12:57.521] [rrc] [debug] New signal detected for cell[177], total [2] cells in coverage
+[2023-03-02 23:12:58.524] [rrc] [debug] Signal lost for cell[176], total [1] cells in coverage
+[2023-03-02 23:13:00.530] [rrc] [debug] New signal detected for cell[178], total [2] cells in coverage
+[2023-03-02 23:13:01.533] [rrc] [debug] Signal lost for cell[177], total [1] cells in coverage
+[2023-03-02 23:13:03.540] [rrc] [debug] New signal detected for cell[179], total [2] cells in coverage
+[2023-03-02 23:13:04.543] [rrc] [debug] Signal lost for cell[178], total [1] cells in coverage
+[2023-03-02 23:13:06.553] [rrc] [debug] New signal detected for cell[180], total [2] cells in coverage
+[2023-03-02 23:13:07.556] [rrc] [debug] Signal lost for cell[179], total [1] cells in coverage
+[2023-03-02 23:13:09.561] [rrc] [debug] New signal detected for cell[181], total [2] cells in coverage
+[2023-03-02 23:13:10.564] [rrc] [debug] Signal lost for cell[180], total [1] cells in coverage
+[2023-03-02 23:13:12.095] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:13:12.095] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:13:12.095] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:13:12.570] [rrc] [debug] New signal detected for cell[182], total [2] cells in coverage
+[2023-03-02 23:13:13.574] [rrc] [debug] Signal lost for cell[181], total [1] cells in coverage
+[2023-03-02 23:13:15.580] [rrc] [debug] New signal detected for cell[183], total [2] cells in coverage
+[2023-03-02 23:13:16.583] [rrc] [debug] Signal lost for cell[182], total [1] cells in coverage
+[2023-03-02 23:13:18.589] [rrc] [debug] New signal detected for cell[184], total [2] cells in coverage
+[2023-03-02 23:13:19.591] [rrc] [debug] Signal lost for cell[183], total [1] cells in coverage
+[2023-03-02 23:13:21.598] [rrc] [debug] New signal detected for cell[185], total [2] cells in coverage
+[2023-03-02 23:13:22.601] [rrc] [debug] Signal lost for cell[184], total [1] cells in coverage
+[2023-03-02 23:13:24.608] [rrc] [debug] New signal detected for cell[186], total [2] cells in coverage
+[2023-03-02 23:13:25.611] [rrc] [debug] Signal lost for cell[185], total [1] cells in coverage
+[2023-03-02 23:13:27.618] [rrc] [debug] New signal detected for cell[187], total [2] cells in coverage
+[2023-03-02 23:13:28.621] [rrc] [debug] Signal lost for cell[186], total [1] cells in coverage
+[2023-03-02 23:13:30.627] [rrc] [debug] New signal detected for cell[188], total [2] cells in coverage
+[2023-03-02 23:13:31.630] [rrc] [debug] Signal lost for cell[187], total [1] cells in coverage
+[2023-03-02 23:13:33.636] [rrc] [debug] New signal detected for cell[189], total [2] cells in coverage
+[2023-03-02 23:13:34.638] [rrc] [debug] Signal lost for cell[188], total [1] cells in coverage
+[2023-03-02 23:13:36.645] [rrc] [debug] New signal detected for cell[190], total [2] cells in coverage
+[2023-03-02 23:13:37.648] [rrc] [debug] Signal lost for cell[189], total [1] cells in coverage
+[2023-03-02 23:13:39.654] [rrc] [debug] New signal detected for cell[191], total [2] cells in coverage
+[2023-03-02 23:13:40.656] [rrc] [debug] Signal lost for cell[190], total [1] cells in coverage
+[2023-03-02 23:13:42.107] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:13:42.107] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:13:42.107] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:13:42.662] [rrc] [debug] New signal detected for cell[192], total [2] cells in coverage
+[2023-03-02 23:13:43.665] [rrc] [debug] Signal lost for cell[191], total [1] cells in coverage
+[2023-03-02 23:13:45.670] [rrc] [debug] New signal detected for cell[193], total [2] cells in coverage
+[2023-03-02 23:13:46.673] [rrc] [debug] Signal lost for cell[192], total [1] cells in coverage
+[2023-03-02 23:13:48.679] [rrc] [debug] New signal detected for cell[194], total [2] cells in coverage
+[2023-03-02 23:13:49.681] [rrc] [debug] Signal lost for cell[193], total [1] cells in coverage
+[2023-03-02 23:13:51.687] [rrc] [debug] New signal detected for cell[195], total [2] cells in coverage
+[2023-03-02 23:13:52.690] [rrc] [debug] Signal lost for cell[194], total [1] cells in coverage
+[2023-03-02 23:13:54.696] [rrc] [debug] New signal detected for cell[196], total [2] cells in coverage
+[2023-03-02 23:13:55.699] [rrc] [debug] Signal lost for cell[195], total [1] cells in coverage
+[2023-03-02 23:13:57.705] [rrc] [debug] New signal detected for cell[197], total [2] cells in coverage
+[2023-03-02 23:13:58.709] [rrc] [debug] Signal lost for cell[196], total [1] cells in coverage
+[2023-03-02 23:14:00.715] [rrc] [debug] New signal detected for cell[198], total [2] cells in coverage
+[2023-03-02 23:14:01.718] [rrc] [debug] Signal lost for cell[197], total [1] cells in coverage
+[2023-03-02 23:14:03.723] [rrc] [debug] New signal detected for cell[199], total [2] cells in coverage
+[2023-03-02 23:14:04.727] [rrc] [debug] Signal lost for cell[198], total [1] cells in coverage
+[2023-03-02 23:14:04.727] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:14:06.733] [rrc] [debug] New signal detected for cell[200], total [2] cells in coverage
+[2023-03-02 23:14:06.733] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:14:07.736] [rrc] [debug] Signal lost for cell[199], total [1] cells in coverage
+[2023-03-02 23:14:09.742] [rrc] [debug] New signal detected for cell[201], total [2] cells in coverage
+[2023-03-02 23:14:10.746] [rrc] [debug] Signal lost for cell[200], total [1] cells in coverage
+[2023-03-02 23:14:12.119] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:14:12.119] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:14:12.119] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:14:12.752] [rrc] [debug] New signal detected for cell[202], total [2] cells in coverage
+[2023-03-02 23:14:13.754] [rrc] [debug] Signal lost for cell[201], total [1] cells in coverage
+[2023-03-02 23:14:15.760] [rrc] [debug] New signal detected for cell[203], total [2] cells in coverage
+[2023-03-02 23:14:16.765] [rrc] [debug] Signal lost for cell[202], total [1] cells in coverage
+[2023-03-02 23:14:18.771] [rrc] [debug] New signal detected for cell[204], total [2] cells in coverage
+[2023-03-02 23:14:19.774] [rrc] [debug] Signal lost for cell[203], total [1] cells in coverage
+[2023-03-02 23:14:21.780] [rrc] [debug] New signal detected for cell[205], total [2] cells in coverage
+[2023-03-02 23:14:22.783] [rrc] [debug] Signal lost for cell[204], total [1] cells in coverage
+[2023-03-02 23:14:24.788] [rrc] [debug] New signal detected for cell[206], total [2] cells in coverage
+[2023-03-02 23:14:25.791] [rrc] [debug] Signal lost for cell[205], total [1] cells in coverage
+[2023-03-02 23:14:27.796] [rrc] [debug] New signal detected for cell[207], total [2] cells in coverage
+[2023-03-02 23:14:28.799] [rrc] [debug] Signal lost for cell[206], total [1] cells in coverage
+[2023-03-02 23:14:30.805] [rrc] [debug] New signal detected for cell[208], total [2] cells in coverage
+[2023-03-02 23:14:31.808] [rrc] [debug] Signal lost for cell[207], total [1] cells in coverage
+[2023-03-02 23:14:33.814] [rrc] [debug] New signal detected for cell[209], total [2] cells in coverage
+[2023-03-02 23:14:33.814] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:14:34.816] [rrc] [debug] Signal lost for cell[208], total [1] cells in coverage
+[2023-03-02 23:14:36.823] [rrc] [debug] New signal detected for cell[210], total [2] cells in coverage
+[2023-03-02 23:14:37.825] [rrc] [debug] Signal lost for cell[209], total [1] cells in coverage
+[2023-03-02 23:14:40.835] [rrc] [debug] Signal lost for cell[210], total [0] cells in coverage
+[2023-03-02 23:14:40.835] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:14:40.835] [rrc] [debug] New signal detected for cell[211], total [1] cells in coverage
+[2023-03-02 23:14:40.835] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:14:42.131] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:14:42.131] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:14:42.131] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:14:43.843] [rrc] [debug] New signal detected for cell[212], total [2] cells in coverage
+[2023-03-02 23:14:44.847] [rrc] [debug] Signal lost for cell[211], total [1] cells in coverage
+[2023-03-02 23:14:46.852] [rrc] [debug] New signal detected for cell[213], total [2] cells in coverage
+[2023-03-02 23:14:47.855] [rrc] [debug] Signal lost for cell[212], total [1] cells in coverage
+[2023-03-02 23:14:49.862] [rrc] [debug] New signal detected for cell[214], total [2] cells in coverage
+[2023-03-02 23:14:50.864] [rrc] [debug] Signal lost for cell[213], total [1] cells in coverage
+[2023-03-02 23:14:52.871] [rrc] [debug] New signal detected for cell[215], total [2] cells in coverage
+[2023-03-02 23:14:53.874] [rrc] [debug] Signal lost for cell[214], total [1] cells in coverage
+[2023-03-02 23:14:55.881] [rrc] [debug] New signal detected for cell[216], total [2] cells in coverage
+[2023-03-02 23:14:56.884] [rrc] [debug] Signal lost for cell[215], total [1] cells in coverage
+[2023-03-02 23:14:58.891] [rrc] [debug] New signal detected for cell[217], total [2] cells in coverage
+[2023-03-02 23:14:59.895] [rrc] [debug] Signal lost for cell[216], total [1] cells in coverage
+[2023-03-02 23:15:01.901] [rrc] [debug] New signal detected for cell[218], total [2] cells in coverage
+[2023-03-02 23:15:02.903] [rrc] [debug] Signal lost for cell[217], total [1] cells in coverage
+[2023-03-02 23:15:04.909] [rrc] [debug] New signal detected for cell[219], total [2] cells in coverage
+[2023-03-02 23:15:05.912] [rrc] [debug] Signal lost for cell[218], total [1] cells in coverage
+[2023-03-02 23:15:07.919] [rrc] [debug] New signal detected for cell[220], total [2] cells in coverage
+[2023-03-02 23:15:08.921] [rrc] [debug] Signal lost for cell[219], total [1] cells in coverage
+[2023-03-02 23:15:10.927] [rrc] [debug] New signal detected for cell[221], total [2] cells in coverage
+[2023-03-02 23:15:10.927] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:15:10.927] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:15:11.930] [rrc] [debug] Signal lost for cell[220], total [1] cells in coverage
+[2023-03-02 23:15:12.143] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:15:12.143] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:15:12.143] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:15:13.936] [rrc] [debug] New signal detected for cell[222], total [2] cells in coverage
+[2023-03-02 23:15:14.939] [rrc] [debug] Signal lost for cell[221], total [1] cells in coverage
+[2023-03-02 23:15:16.945] [rrc] [debug] New signal detected for cell[223], total [2] cells in coverage
+[2023-03-02 23:15:17.948] [rrc] [debug] Signal lost for cell[222], total [1] cells in coverage
+[2023-03-02 23:15:19.955] [rrc] [debug] New signal detected for cell[224], total [2] cells in coverage
+[2023-03-02 23:15:20.957] [rrc] [debug] Signal lost for cell[223], total [1] cells in coverage
+[2023-03-02 23:15:22.964] [rrc] [debug] New signal detected for cell[225], total [2] cells in coverage
+[2023-03-02 23:15:23.967] [rrc] [debug] Signal lost for cell[224], total [1] cells in coverage
+[2023-03-02 23:15:25.973] [rrc] [debug] New signal detected for cell[226], total [2] cells in coverage
+[2023-03-02 23:15:26.976] [rrc] [debug] Signal lost for cell[225], total [1] cells in coverage
+[2023-03-02 23:15:28.983] [rrc] [debug] New signal detected for cell[227], total [2] cells in coverage
+[2023-03-02 23:15:29.987] [rrc] [debug] Signal lost for cell[226], total [1] cells in coverage
+[2023-03-02 23:15:31.992] [rrc] [debug] New signal detected for cell[228], total [2] cells in coverage
+[2023-03-02 23:15:32.995] [rrc] [debug] Signal lost for cell[227], total [1] cells in coverage
+[2023-03-02 23:15:35.002] [rrc] [debug] New signal detected for cell[229], total [2] cells in coverage
+[2023-03-02 23:15:36.006] [rrc] [debug] Signal lost for cell[228], total [1] cells in coverage
+[2023-03-02 23:15:38.012] [rrc] [debug] New signal detected for cell[230], total [2] cells in coverage
+[2023-03-02 23:15:39.015] [rrc] [debug] Signal lost for cell[229], total [1] cells in coverage
+[2023-03-02 23:15:41.022] [rrc] [debug] New signal detected for cell[231], total [2] cells in coverage
+[2023-03-02 23:15:42.025] [rrc] [debug] Signal lost for cell[230], total [1] cells in coverage
+[2023-03-02 23:15:42.155] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:15:42.155] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:15:42.155] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:15:44.032] [rrc] [debug] New signal detected for cell[232], total [2] cells in coverage
+[2023-03-02 23:15:45.035] [rrc] [debug] Signal lost for cell[231], total [1] cells in coverage
+[2023-03-02 23:15:47.042] [rrc] [debug] New signal detected for cell[233], total [2] cells in coverage
+[2023-03-02 23:15:48.044] [rrc] [debug] Signal lost for cell[232], total [1] cells in coverage
+[2023-03-02 23:15:50.050] [rrc] [debug] New signal detected for cell[234], total [2] cells in coverage
+[2023-03-02 23:15:51.054] [rrc] [debug] Signal lost for cell[233], total [1] cells in coverage
+[2023-03-02 23:15:53.060] [rrc] [debug] New signal detected for cell[235], total [2] cells in coverage
+[2023-03-02 23:15:54.064] [rrc] [debug] Signal lost for cell[234], total [1] cells in coverage
+[2023-03-02 23:15:56.070] [rrc] [debug] New signal detected for cell[236], total [2] cells in coverage
+[2023-03-02 23:15:57.073] [rrc] [debug] Signal lost for cell[235], total [1] cells in coverage
+[2023-03-02 23:15:59.079] [rrc] [debug] New signal detected for cell[237], total [2] cells in coverage
+[2023-03-02 23:16:00.082] [rrc] [debug] Signal lost for cell[236], total [1] cells in coverage
+[2023-03-02 23:16:02.088] [rrc] [debug] New signal detected for cell[238], total [2] cells in coverage
+[2023-03-02 23:16:03.091] [rrc] [debug] Signal lost for cell[237], total [1] cells in coverage
+[2023-03-02 23:16:05.096] [rrc] [debug] New signal detected for cell[239], total [2] cells in coverage
+[2023-03-02 23:16:06.099] [rrc] [debug] Signal lost for cell[238], total [1] cells in coverage
+[2023-03-02 23:16:08.105] [rrc] [debug] New signal detected for cell[240], total [2] cells in coverage
+[2023-03-02 23:16:09.108] [rrc] [debug] Signal lost for cell[239], total [1] cells in coverage
+[2023-03-02 23:16:11.114] [rrc] [debug] New signal detected for cell[241], total [2] cells in coverage
+[2023-03-02 23:16:12.116] [rrc] [debug] Signal lost for cell[240], total [1] cells in coverage
+[2023-03-02 23:16:12.167] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:16:12.167] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:16:12.167] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:16:14.121] [rrc] [debug] New signal detected for cell[242], total [2] cells in coverage
+[2023-03-02 23:16:15.125] [rrc] [debug] Signal lost for cell[241], total [1] cells in coverage
+[2023-03-02 23:16:17.129] [rrc] [debug] New signal detected for cell[243], total [2] cells in coverage
+[2023-03-02 23:16:18.132] [rrc] [debug] Signal lost for cell[242], total [1] cells in coverage
+[2023-03-02 23:16:20.137] [rrc] [debug] New signal detected for cell[244], total [2] cells in coverage
+[2023-03-02 23:16:21.141] [rrc] [debug] Signal lost for cell[243], total [1] cells in coverage
+[2023-03-02 23:16:23.146] [rrc] [debug] New signal detected for cell[245], total [2] cells in coverage
+[2023-03-02 23:16:24.149] [rrc] [debug] Signal lost for cell[244], total [1] cells in coverage
+[2023-03-02 23:16:26.154] [rrc] [debug] New signal detected for cell[246], total [2] cells in coverage
+[2023-03-02 23:16:27.157] [rrc] [debug] Signal lost for cell[245], total [1] cells in coverage
+[2023-03-02 23:16:29.162] [rrc] [debug] New signal detected for cell[247], total [2] cells in coverage
+[2023-03-02 23:16:30.164] [rrc] [debug] Signal lost for cell[246], total [1] cells in coverage
+[2023-03-02 23:16:32.169] [rrc] [debug] New signal detected for cell[248], total [2] cells in coverage
+[2023-03-02 23:16:33.171] [rrc] [debug] Signal lost for cell[247], total [1] cells in coverage
+[2023-03-02 23:16:35.177] [rrc] [debug] New signal detected for cell[249], total [2] cells in coverage
+[2023-03-02 23:16:36.179] [rrc] [debug] Signal lost for cell[248], total [1] cells in coverage
+[2023-03-02 23:16:38.185] [rrc] [debug] New signal detected for cell[250], total [2] cells in coverage
+[2023-03-02 23:16:39.189] [rrc] [debug] Signal lost for cell[249], total [1] cells in coverage
+[2023-03-02 23:16:41.194] [rrc] [debug] New signal detected for cell[251], total [2] cells in coverage
+[2023-03-02 23:16:42.179] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:16:42.179] [rrc] [warning] Acceptable cell selection failed in [2] cells. [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:16:42.179] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:16:42.197] [rrc] [debug] Signal lost for cell[250], total [1] cells in coverage
+[2023-03-02 23:16:44.203] [rrc] [debug] New signal detected for cell[252], total [2] cells in coverage
+[2023-03-02 23:16:45.206] [rrc] [debug] Signal lost for cell[251], total [1] cells in coverage
+[2023-03-02 23:16:47.212] [rrc] [debug] New signal detected for cell[253], total [2] cells in coverage
+[2023-03-02 23:16:48.215] [rrc] [debug] Signal lost for cell[252], total [1] cells in coverage
+[2023-03-02 23:16:50.222] [rrc] [debug] New signal detected for cell[254], total [2] cells in coverage
+[2023-03-02 23:16:51.224] [rrc] [debug] Signal lost for cell[253], total [1] cells in coverage
+[2023-03-02 23:16:53.229] [rrc] [debug] New signal detected for cell[255], total [2] cells in coverage
+[2023-03-02 23:16:54.232] [rrc] [debug] Signal lost for cell[254], total [1] cells in coverage
+[2023-03-02 23:16:56.239] [rrc] [debug] New signal detected for cell[256], total [2] cells in coverage
+[2023-03-02 23:16:57.241] [rrc] [debug] Signal lost for cell[255], total [1] cells in coverage
+[2023-03-02 23:16:59.247] [rrc] [debug] New signal detected for cell[257], total [2] cells in coverage
+[2023-03-02 23:17:00.250] [rrc] [debug] Signal lost for cell[256], total [1] cells in coverage
+[2023-03-02 23:17:00.250] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:17:02.256] [rrc] [debug] New signal detected for cell[258], total [2] cells in coverage
+[2023-03-02 23:17:02.257] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:17:03.259] [rrc] [debug] Signal lost for cell[257], total [1] cells in coverage
+[2023-03-02 23:17:05.266] [rrc] [debug] New signal detected for cell[259], total [2] cells in coverage
+[2023-03-02 23:17:06.268] [rrc] [debug] Signal lost for cell[258], total [1] cells in coverage
+[2023-03-02 23:17:08.275] [rrc] [debug] New signal detected for cell[260], total [2] cells in coverage
+[2023-03-02 23:17:09.278] [rrc] [debug] Signal lost for cell[259], total [1] cells in coverage
+[2023-03-02 23:17:11.284] [rrc] [debug] New signal detected for cell[261], total [2] cells in coverage
+[2023-03-02 23:17:11.284] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:17:12.191] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [1] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:17:12.191] [rrc] [warning] Acceptable cell selection failed in [2] cells. [1] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:17:12.191] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:17:12.287] [rrc] [debug] Signal lost for cell[260], total [1] cells in coverage
+[2023-03-02 23:17:14.292] [rrc] [debug] New signal detected for cell[262], total [2] cells in coverage
+[2023-03-02 23:17:15.296] [rrc] [debug] Signal lost for cell[261], total [1] cells in coverage
+[2023-03-02 23:17:17.301] [rrc] [debug] New signal detected for cell[263], total [2] cells in coverage
+[2023-03-02 23:17:18.304] [rrc] [debug] Signal lost for cell[262], total [1] cells in coverage
+[2023-03-02 23:17:20.309] [rrc] [debug] New signal detected for cell[264], total [2] cells in coverage
+[2023-03-02 23:17:21.312] [rrc] [debug] Signal lost for cell[263], total [1] cells in coverage
+[2023-03-02 23:17:23.317] [rrc] [debug] New signal detected for cell[265], total [2] cells in coverage
+[2023-03-02 23:17:24.320] [rrc] [debug] Signal lost for cell[264], total [1] cells in coverage
+[2023-03-02 23:17:26.326] [rrc] [debug] New signal detected for cell[266], total [2] cells in coverage
+[2023-03-02 23:17:26.326] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:17:27.328] [rrc] [debug] Signal lost for cell[265], total [1] cells in coverage
+[2023-03-02 23:17:29.334] [rrc] [debug] New signal detected for cell[267], total [2] cells in coverage
+[2023-03-02 23:17:30.337] [rrc] [debug] Signal lost for cell[266], total [1] cells in coverage
+[2023-03-02 23:17:32.341] [rrc] [debug] New signal detected for cell[268], total [2] cells in coverage
+[2023-03-02 23:17:33.344] [rrc] [debug] Signal lost for cell[267], total [1] cells in coverage
+[2023-03-02 23:17:33.344] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:17:35.368] [rrc] [debug] New signal detected for cell[269], total [2] cells in coverage
+[2023-03-02 23:17:35.368] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:17:36.371] [rrc] [debug] Signal lost for cell[268], total [1] cells in coverage
+[2023-03-02 23:17:38.377] [rrc] [debug] New signal detected for cell[270], total [2] cells in coverage
+[2023-03-02 23:17:39.380] [rrc] [debug] Signal lost for cell[269], total [1] cells in coverage
+[2023-03-02 23:17:41.385] [rrc] [debug] New signal detected for cell[271], total [2] cells in coverage
+[2023-03-02 23:17:42.211] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:17:42.211] [rrc] [warning] Acceptable cell selection failed in [2] cells. [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:17:42.211] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:17:42.388] [rrc] [debug] Signal lost for cell[270], total [1] cells in coverage
+[2023-03-02 23:17:44.394] [rrc] [debug] New signal detected for cell[272], total [2] cells in coverage
+[2023-03-02 23:17:45.396] [rrc] [debug] Signal lost for cell[271], total [1] cells in coverage
+[2023-03-02 23:17:47.402] [rrc] [debug] New signal detected for cell[273], total [2] cells in coverage
+[2023-03-02 23:17:48.406] [rrc] [debug] Signal lost for cell[272], total [1] cells in coverage
+[2023-03-02 23:17:50.413] [rrc] [debug] New signal detected for cell[274], total [2] cells in coverage
+[2023-03-02 23:17:51.416] [rrc] [debug] Signal lost for cell[273], total [1] cells in coverage
+[2023-03-02 23:17:53.421] [rrc] [debug] New signal detected for cell[275], total [2] cells in coverage
+[2023-03-02 23:17:54.424] [rrc] [debug] Signal lost for cell[274], total [1] cells in coverage
+[2023-03-02 23:17:56.429] [rrc] [debug] New signal detected for cell[276], total [2] cells in coverage
+[2023-03-02 23:17:57.432] [rrc] [debug] Signal lost for cell[275], total [1] cells in coverage
+[2023-03-02 23:17:59.437] [rrc] [debug] New signal detected for cell[277], total [2] cells in coverage
+[2023-03-02 23:18:00.439] [rrc] [debug] Signal lost for cell[276], total [1] cells in coverage
+[2023-03-02 23:18:02.444] [rrc] [debug] New signal detected for cell[278], total [2] cells in coverage
+[2023-03-02 23:18:03.446] [rrc] [debug] Signal lost for cell[277], total [1] cells in coverage
+[2023-03-02 23:18:05.451] [rrc] [debug] New signal detected for cell[279], total [2] cells in coverage
+[2023-03-02 23:18:06.453] [rrc] [debug] Signal lost for cell[278], total [1] cells in coverage
+[2023-03-02 23:18:08.460] [rrc] [debug] New signal detected for cell[280], total [2] cells in coverage
+[2023-03-02 23:18:09.463] [rrc] [debug] Signal lost for cell[279], total [1] cells in coverage
+[2023-03-02 23:18:11.469] [rrc] [debug] New signal detected for cell[281], total [2] cells in coverage
+[2023-03-02 23:18:12.223] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:18:12.223] [rrc] [warning] Acceptable cell selection failed in [2] cells. [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:18:12.223] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:18:12.472] [rrc] [debug] Signal lost for cell[280], total [1] cells in coverage
+[2023-03-02 23:18:14.478] [rrc] [debug] New signal detected for cell[282], total [2] cells in coverage
+[2023-03-02 23:18:15.481] [rrc] [debug] Signal lost for cell[281], total [1] cells in coverage
+[2023-03-02 23:18:17.488] [rrc] [debug] New signal detected for cell[283], total [2] cells in coverage
+[2023-03-02 23:18:18.491] [rrc] [debug] Signal lost for cell[282], total [1] cells in coverage
+[2023-03-02 23:18:20.497] [rrc] [debug] New signal detected for cell[284], total [2] cells in coverage
+[2023-03-02 23:18:21.500] [rrc] [debug] Signal lost for cell[283], total [1] cells in coverage
+[2023-03-02 23:18:23.507] [rrc] [debug] New signal detected for cell[285], total [2] cells in coverage
+[2023-03-02 23:18:24.510] [rrc] [debug] Signal lost for cell[284], total [1] cells in coverage
+[2023-03-02 23:18:26.515] [rrc] [debug] New signal detected for cell[286], total [2] cells in coverage
+[2023-03-02 23:18:27.517] [rrc] [debug] Signal lost for cell[285], total [1] cells in coverage
+[2023-03-02 23:18:29.524] [rrc] [debug] New signal detected for cell[287], total [2] cells in coverage
+[2023-03-02 23:18:30.527] [rrc] [debug] Signal lost for cell[286], total [1] cells in coverage
+[2023-03-02 23:18:32.533] [rrc] [debug] New signal detected for cell[288], total [2] cells in coverage
+[2023-03-02 23:18:33.536] [rrc] [debug] Signal lost for cell[287], total [1] cells in coverage
+[2023-03-02 23:18:35.542] [rrc] [debug] New signal detected for cell[289], total [2] cells in coverage
+[2023-03-02 23:18:36.545] [rrc] [debug] Signal lost for cell[288], total [1] cells in coverage
+[2023-03-02 23:18:38.551] [rrc] [debug] New signal detected for cell[290], total [2] cells in coverage
+[2023-03-02 23:18:39.554] [rrc] [debug] Signal lost for cell[289], total [1] cells in coverage
+[2023-03-02 23:18:39.554] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:18:41.559] [rrc] [debug] New signal detected for cell[291], total [2] cells in coverage
+[2023-03-02 23:18:41.560] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:18:42.235] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [1] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:18:42.235] [rrc] [warning] Acceptable cell selection failed in [2] cells. [1] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:18:42.235] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:18:42.562] [rrc] [debug] Signal lost for cell[290], total [1] cells in coverage
+[2023-03-02 23:18:44.570] [rrc] [debug] New signal detected for cell[292], total [2] cells in coverage
+[2023-03-02 23:18:45.574] [rrc] [debug] Signal lost for cell[291], total [1] cells in coverage
+[2023-03-02 23:18:47.581] [rrc] [debug] New signal detected for cell[293], total [2] cells in coverage
+[2023-03-02 23:18:48.584] [rrc] [debug] Signal lost for cell[292], total [1] cells in coverage
+[2023-03-02 23:18:50.590] [rrc] [debug] New signal detected for cell[294], total [2] cells in coverage
+[2023-03-02 23:18:50.591] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:18:51.593] [rrc] [debug] Signal lost for cell[293], total [1] cells in coverage
+[2023-03-02 23:18:53.599] [rrc] [debug] New signal detected for cell[295], total [2] cells in coverage
+[2023-03-02 23:18:54.602] [rrc] [debug] Signal lost for cell[294], total [1] cells in coverage
+[2023-03-02 23:18:56.608] [rrc] [debug] New signal detected for cell[296], total [2] cells in coverage
+[2023-03-02 23:18:57.610] [rrc] [debug] Signal lost for cell[295], total [1] cells in coverage
+[2023-03-02 23:18:59.616] [rrc] [debug] New signal detected for cell[297], total [2] cells in coverage
+[2023-03-02 23:18:59.616] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:19:00.619] [rrc] [debug] Signal lost for cell[296], total [1] cells in coverage
+[2023-03-02 23:19:02.625] [rrc] [debug] New signal detected for cell[298], total [2] cells in coverage
+[2023-03-02 23:19:03.628] [rrc] [debug] Signal lost for cell[297], total [1] cells in coverage
+[2023-03-02 23:19:05.634] [rrc] [debug] New signal detected for cell[299], total [2] cells in coverage
+[2023-03-02 23:19:06.637] [rrc] [debug] Signal lost for cell[298], total [1] cells in coverage
+[2023-03-02 23:19:08.642] [rrc] [debug] New signal detected for cell[300], total [2] cells in coverage
+[2023-03-02 23:19:08.642] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:19:09.645] [rrc] [debug] Signal lost for cell[299], total [1] cells in coverage
+[2023-03-02 23:19:11.651] [rrc] [debug] New signal detected for cell[301], total [2] cells in coverage
+[2023-03-02 23:19:12.247] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:19:12.247] [rrc] [warning] Acceptable cell selection failed in [2] cells. [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:19:12.247] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:19:12.655] [rrc] [debug] Signal lost for cell[300], total [1] cells in coverage
+[2023-03-02 23:19:14.660] [rrc] [debug] New signal detected for cell[302], total [2] cells in coverage
+[2023-03-02 23:19:15.664] [rrc] [debug] Signal lost for cell[301], total [1] cells in coverage
+[2023-03-02 23:19:15.665] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:19:17.671] [rrc] [debug] New signal detected for cell[303], total [2] cells in coverage
+[2023-03-02 23:19:17.672] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:19:18.674] [rrc] [debug] Signal lost for cell[302], total [1] cells in coverage
+[2023-03-02 23:19:20.680] [rrc] [debug] New signal detected for cell[304], total [2] cells in coverage
+[2023-03-02 23:19:21.683] [rrc] [debug] Signal lost for cell[303], total [1] cells in coverage
+[2023-03-02 23:19:23.689] [rrc] [debug] New signal detected for cell[305], total [2] cells in coverage
+[2023-03-02 23:19:24.693] [rrc] [debug] Signal lost for cell[304], total [1] cells in coverage
+[2023-03-02 23:19:26.699] [rrc] [debug] New signal detected for cell[306], total [2] cells in coverage
+[2023-03-02 23:19:27.702] [rrc] [debug] Signal lost for cell[305], total [1] cells in coverage
+[2023-03-02 23:19:29.709] [rrc] [debug] New signal detected for cell[307], total [2] cells in coverage
+[2023-03-02 23:19:30.712] [rrc] [debug] Signal lost for cell[306], total [1] cells in coverage
+[2023-03-02 23:19:32.718] [rrc] [debug] New signal detected for cell[308], total [2] cells in coverage
+[2023-03-02 23:19:33.721] [rrc] [debug] Signal lost for cell[307], total [1] cells in coverage
+[2023-03-02 23:19:35.727] [rrc] [debug] New signal detected for cell[309], total [2] cells in coverage
+[2023-03-02 23:19:36.731] [rrc] [debug] Signal lost for cell[308], total [1] cells in coverage
+[2023-03-02 23:19:38.737] [rrc] [debug] New signal detected for cell[310], total [2] cells in coverage
+[2023-03-02 23:19:39.740] [rrc] [debug] Signal lost for cell[309], total [1] cells in coverage
+[2023-03-02 23:19:41.746] [rrc] [debug] New signal detected for cell[311], total [2] cells in coverage
+[2023-03-02 23:19:42.259] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:19:42.259] [rrc] [warning] Acceptable cell selection failed in [2] cells. [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:19:42.259] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:19:42.749] [rrc] [debug] Signal lost for cell[310], total [1] cells in coverage
+[2023-03-02 23:19:44.756] [rrc] [debug] New signal detected for cell[312], total [2] cells in coverage
+[2023-03-02 23:19:45.758] [rrc] [debug] Signal lost for cell[311], total [1] cells in coverage
+[2023-03-02 23:19:47.765] [rrc] [debug] New signal detected for cell[313], total [2] cells in coverage
+[2023-03-02 23:19:48.769] [rrc] [debug] Signal lost for cell[312], total [1] cells in coverage
+[2023-03-02 23:19:50.774] [rrc] [debug] New signal detected for cell[314], total [2] cells in coverage
+[2023-03-02 23:19:51.776] [rrc] [debug] Signal lost for cell[313], total [1] cells in coverage
+[2023-03-02 23:19:53.782] [rrc] [debug] New signal detected for cell[315], total [2] cells in coverage
+[2023-03-02 23:19:54.785] [rrc] [debug] Signal lost for cell[314], total [1] cells in coverage
+[2023-03-02 23:19:54.785] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:19:56.791] [rrc] [debug] New signal detected for cell[316], total [2] cells in coverage
+[2023-03-02 23:19:56.791] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:19:57.793] [rrc] [debug] Signal lost for cell[315], total [1] cells in coverage
+[2023-03-02 23:19:59.800] [rrc] [debug] New signal detected for cell[317], total [2] cells in coverage
+[2023-03-02 23:20:00.804] [rrc] [debug] Signal lost for cell[316], total [1] cells in coverage
+[2023-03-02 23:20:02.810] [rrc] [debug] New signal detected for cell[318], total [2] cells in coverage
+[2023-03-02 23:20:03.813] [rrc] [debug] Signal lost for cell[317], total [1] cells in coverage
+[2023-03-02 23:20:05.819] [rrc] [debug] New signal detected for cell[319], total [2] cells in coverage
+[2023-03-02 23:20:06.822] [rrc] [debug] Signal lost for cell[318], total [1] cells in coverage
+[2023-03-02 23:20:08.828] [rrc] [debug] New signal detected for cell[320], total [2] cells in coverage
+[2023-03-02 23:20:09.831] [rrc] [debug] Signal lost for cell[319], total [1] cells in coverage
+[2023-03-02 23:20:11.838] [rrc] [debug] New signal detected for cell[321], total [2] cells in coverage
+[2023-03-02 23:20:12.271] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:20:12.271] [rrc] [warning] Acceptable cell selection failed in [2] cells. [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:20:12.271] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:20:12.841] [rrc] [debug] Signal lost for cell[320], total [1] cells in coverage
+[2023-03-02 23:20:14.848] [rrc] [debug] New signal detected for cell[322], total [2] cells in coverage
+[2023-03-02 23:20:15.851] [rrc] [debug] Signal lost for cell[321], total [1] cells in coverage
+[2023-03-02 23:20:17.856] [rrc] [debug] New signal detected for cell[323], total [2] cells in coverage
+[2023-03-02 23:20:18.859] [rrc] [debug] Signal lost for cell[322], total [1] cells in coverage
+[2023-03-02 23:20:20.865] [rrc] [debug] New signal detected for cell[324], total [2] cells in coverage
+[2023-03-02 23:20:21.868] [rrc] [debug] Signal lost for cell[323], total [1] cells in coverage
+[2023-03-02 23:20:23.875] [rrc] [debug] New signal detected for cell[325], total [2] cells in coverage
+[2023-03-02 23:20:24.878] [rrc] [debug] Signal lost for cell[324], total [1] cells in coverage
+[2023-03-02 23:20:26.883] [rrc] [debug] New signal detected for cell[326], total [2] cells in coverage
+[2023-03-02 23:20:27.886] [rrc] [debug] Signal lost for cell[325], total [1] cells in coverage
+[2023-03-02 23:20:29.892] [rrc] [debug] New signal detected for cell[327], total [2] cells in coverage
+[2023-03-02 23:20:30.896] [rrc] [debug] Signal lost for cell[326], total [1] cells in coverage
+[2023-03-02 23:20:32.902] [rrc] [debug] New signal detected for cell[328], total [2] cells in coverage
+[2023-03-02 23:20:33.905] [rrc] [debug] Signal lost for cell[327], total [1] cells in coverage
+[2023-03-02 23:20:35.912] [rrc] [debug] New signal detected for cell[329], total [2] cells in coverage
+[2023-03-02 23:20:36.914] [rrc] [debug] Signal lost for cell[328], total [1] cells in coverage
+[2023-03-02 23:20:38.920] [rrc] [debug] New signal detected for cell[330], total [2] cells in coverage
+[2023-03-02 23:20:39.924] [rrc] [debug] Signal lost for cell[329], total [1] cells in coverage
+[2023-03-02 23:20:41.930] [rrc] [debug] New signal detected for cell[331], total [2] cells in coverage
+[2023-03-02 23:20:42.283] [rrc] [warning] Suitable cell selection failed in [2] cells. [0] out of PLMN, [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:20:42.283] [rrc] [warning] Acceptable cell selection failed in [2] cells. [0] no SI, [0] reserved, [2] barred, ftai [0]
+[2023-03-02 23:20:42.283] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:20:42.933] [rrc] [debug] Signal lost for cell[330], total [1] cells in coverage
+[2023-03-02 23:20:44.940] [rrc] [debug] New signal detected for cell[332], total [2] cells in coverage
+[2023-03-02 23:20:45.943] [rrc] [debug] Signal lost for cell[331], total [1] cells in coverage
+[2023-03-02 23:20:47.949] [rrc] [debug] New signal detected for cell[333], total [2] cells in coverage
+[2023-03-02 23:20:48.953] [rrc] [debug] Signal lost for cell[332], total [1] cells in coverage
+[2023-03-02 23:20:50.959] [rrc] [debug] New signal detected for cell[334], total [2] cells in coverage
+[2023-03-02 23:20:51.962] [rrc] [debug] Signal lost for cell[333], total [1] cells in coverage
+[2023-03-02 23:20:53.969] [rrc] [debug] New signal detected for cell[335], total [2] cells in coverage
+[2023-03-02 23:20:54.972] [rrc] [debug] Signal lost for cell[334], total [1] cells in coverage
+[2023-03-02 23:20:54.973] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:20:56.979] [rrc] [debug] New signal detected for cell[336], total [2] cells in coverage
+[2023-03-02 23:20:56.979] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:20:57.982] [rrc] [debug] Signal lost for cell[335], total [1] cells in coverage
+[2023-03-02 23:20:59.988] [rrc] [debug] New signal detected for cell[337], total [2] cells in coverage
+[2023-03-02 23:21:00.990] [rrc] [debug] Signal lost for cell[336], total [1] cells in coverage
+[2023-03-02 23:21:02.997] [rrc] [debug] New signal detected for cell[338], total [2] cells in coverage
+[2023-03-02 23:21:04.000] [rrc] [debug] Signal lost for cell[337], total [1] cells in coverage
+[2023-03-02 23:21:06.005] [rrc] [debug] New signal detected for cell[339], total [2] cells in coverage
+[2023-03-02 23:21:07.008] [rrc] [debug] Signal lost for cell[338], total [1] cells in coverage
+[2023-03-02 23:21:10.017] [rrc] [debug] Signal lost for cell[339], total [0] cells in coverage
+[2023-03-02 23:21:10.018] [rrc] [debug] New signal detected for cell[340], total [1] cells in coverage
+[2023-03-02 23:21:10.018] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:21:12.295] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:21:12.295] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:21:12.295] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:21:13.026] [rrc] [debug] New signal detected for cell[341], total [2] cells in coverage
+[2023-03-02 23:21:14.029] [rrc] [debug] Signal lost for cell[340], total [1] cells in coverage
+[2023-03-02 23:21:16.035] [rrc] [debug] New signal detected for cell[342], total [2] cells in coverage
+[2023-03-02 23:21:17.039] [rrc] [debug] Signal lost for cell[341], total [1] cells in coverage
+[2023-03-02 23:21:19.045] [rrc] [debug] New signal detected for cell[343], total [2] cells in coverage
+[2023-03-02 23:21:20.048] [rrc] [debug] Signal lost for cell[342], total [1] cells in coverage
+[2023-03-02 23:21:22.056] [rrc] [debug] New signal detected for cell[344], total [2] cells in coverage
+[2023-03-02 23:21:23.059] [rrc] [debug] Signal lost for cell[343], total [1] cells in coverage
+[2023-03-02 23:21:25.065] [rrc] [debug] New signal detected for cell[345], total [2] cells in coverage
+[2023-03-02 23:21:26.068] [rrc] [debug] Signal lost for cell[344], total [1] cells in coverage
+[2023-03-02 23:21:28.074] [rrc] [debug] New signal detected for cell[346], total [2] cells in coverage
+[2023-03-02 23:21:29.076] [rrc] [debug] Signal lost for cell[345], total [1] cells in coverage
+[2023-03-02 23:21:31.083] [rrc] [debug] New signal detected for cell[347], total [2] cells in coverage
+[2023-03-02 23:21:32.086] [rrc] [debug] Signal lost for cell[346], total [1] cells in coverage
+[2023-03-02 23:21:34.093] [rrc] [debug] New signal detected for cell[348], total [2] cells in coverage
+[2023-03-02 23:21:35.096] [rrc] [debug] Signal lost for cell[347], total [1] cells in coverage
+[2023-03-02 23:21:35.096] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:21:37.103] [rrc] [debug] New signal detected for cell[349], total [2] cells in coverage
+[2023-03-02 23:21:37.103] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:21:38.106] [rrc] [debug] Signal lost for cell[348], total [1] cells in coverage
+[2023-03-02 23:21:40.113] [rrc] [debug] New signal detected for cell[350], total [2] cells in coverage
+[2023-03-02 23:21:41.115] [rrc] [debug] Signal lost for cell[349], total [1] cells in coverage
+[2023-03-02 23:21:42.307] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:21:42.307] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:21:42.307] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:21:43.121] [rrc] [debug] New signal detected for cell[351], total [2] cells in coverage
+[2023-03-02 23:21:44.125] [rrc] [debug] Signal lost for cell[350], total [1] cells in coverage
+[2023-03-02 23:21:46.131] [rrc] [debug] New signal detected for cell[352], total [2] cells in coverage
+[2023-03-02 23:21:47.133] [rrc] [debug] Signal lost for cell[351], total [1] cells in coverage
+[2023-03-02 23:21:49.139] [rrc] [debug] New signal detected for cell[353], total [2] cells in coverage
+[2023-03-02 23:21:50.142] [rrc] [debug] Signal lost for cell[352], total [1] cells in coverage
+[2023-03-02 23:21:52.149] [rrc] [debug] New signal detected for cell[354], total [2] cells in coverage
+[2023-03-02 23:21:53.152] [rrc] [debug] Signal lost for cell[353], total [1] cells in coverage
+[2023-03-02 23:21:55.159] [rrc] [debug] New signal detected for cell[355], total [2] cells in coverage
+[2023-03-02 23:21:55.159] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:21:56.161] [rrc] [debug] Signal lost for cell[354], total [1] cells in coverage
+[2023-03-02 23:21:58.167] [rrc] [debug] New signal detected for cell[356], total [2] cells in coverage
+[2023-03-02 23:21:59.170] [rrc] [debug] Signal lost for cell[355], total [1] cells in coverage
+[2023-03-02 23:22:01.177] [rrc] [debug] New signal detected for cell[357], total [2] cells in coverage
+[2023-03-02 23:22:02.179] [rrc] [debug] Signal lost for cell[356], total [1] cells in coverage
+[2023-03-02 23:22:04.184] [rrc] [debug] New signal detected for cell[358], total [2] cells in coverage
+[2023-03-02 23:22:05.188] [rrc] [debug] Signal lost for cell[357], total [1] cells in coverage
+[2023-03-02 23:22:07.193] [rrc] [debug] New signal detected for cell[359], total [2] cells in coverage
+[2023-03-02 23:22:08.197] [rrc] [debug] Signal lost for cell[358], total [1] cells in coverage
+[2023-03-02 23:22:10.202] [rrc] [debug] New signal detected for cell[360], total [2] cells in coverage
+[2023-03-02 23:22:11.204] [rrc] [debug] Signal lost for cell[359], total [1] cells in coverage
+[2023-03-02 23:22:12.319] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:22:12.319] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:22:12.319] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:22:13.210] [rrc] [debug] New signal detected for cell[361], total [2] cells in coverage
+[2023-03-02 23:22:14.213] [rrc] [debug] Signal lost for cell[360], total [1] cells in coverage
+[2023-03-02 23:22:16.219] [rrc] [debug] New signal detected for cell[362], total [2] cells in coverage
+[2023-03-02 23:22:17.222] [rrc] [debug] Signal lost for cell[361], total [1] cells in coverage
+[2023-03-02 23:22:19.228] [rrc] [debug] New signal detected for cell[363], total [2] cells in coverage
+[2023-03-02 23:22:20.231] [rrc] [debug] Signal lost for cell[362], total [1] cells in coverage
+[2023-03-02 23:22:22.237] [rrc] [debug] New signal detected for cell[364], total [2] cells in coverage
+[2023-03-02 23:22:23.239] [rrc] [debug] Signal lost for cell[363], total [1] cells in coverage
+[2023-03-02 23:22:25.245] [rrc] [debug] New signal detected for cell[365], total [2] cells in coverage
+[2023-03-02 23:22:26.247] [rrc] [debug] Signal lost for cell[364], total [1] cells in coverage
+[2023-03-02 23:22:28.253] [rrc] [debug] New signal detected for cell[366], total [2] cells in coverage
+[2023-03-02 23:22:29.256] [rrc] [debug] Signal lost for cell[365], total [1] cells in coverage
+[2023-03-02 23:22:31.262] [rrc] [debug] New signal detected for cell[367], total [2] cells in coverage
+[2023-03-02 23:22:32.266] [rrc] [debug] Signal lost for cell[366], total [1] cells in coverage
+[2023-03-02 23:22:34.272] [rrc] [debug] New signal detected for cell[368], total [2] cells in coverage
+[2023-03-02 23:22:35.276] [rrc] [debug] Signal lost for cell[367], total [1] cells in coverage
+[2023-03-02 23:22:37.281] [rrc] [debug] New signal detected for cell[369], total [2] cells in coverage
+[2023-03-02 23:22:38.285] [rrc] [debug] Signal lost for cell[368], total [1] cells in coverage
+[2023-03-02 23:22:40.291] [rrc] [debug] New signal detected for cell[370], total [2] cells in coverage
+[2023-03-02 23:22:41.294] [rrc] [debug] Signal lost for cell[369], total [1] cells in coverage
+[2023-03-02 23:22:42.332] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:22:42.332] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:22:42.332] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:22:43.303] [rrc] [debug] New signal detected for cell[371], total [2] cells in coverage
+[2023-03-02 23:22:44.307] [rrc] [debug] Signal lost for cell[370], total [1] cells in coverage
+[2023-03-02 23:22:46.313] [rrc] [debug] New signal detected for cell[372], total [2] cells in coverage
+[2023-03-02 23:22:47.317] [rrc] [debug] Signal lost for cell[371], total [1] cells in coverage
+[2023-03-02 23:22:49.325] [rrc] [debug] New signal detected for cell[373], total [2] cells in coverage
+[2023-03-02 23:22:50.328] [rrc] [debug] Signal lost for cell[372], total [1] cells in coverage
+[2023-03-02 23:22:52.336] [rrc] [debug] New signal detected for cell[374], total [2] cells in coverage
+[2023-03-02 23:22:53.339] [rrc] [debug] Signal lost for cell[373], total [1] cells in coverage
+[2023-03-02 23:22:55.345] [rrc] [debug] New signal detected for cell[375], total [2] cells in coverage
+[2023-03-02 23:22:56.349] [rrc] [debug] Signal lost for cell[374], total [1] cells in coverage
+[2023-03-02 23:22:58.355] [rrc] [debug] New signal detected for cell[376], total [2] cells in coverage
+[2023-03-02 23:22:59.357] [rrc] [debug] Signal lost for cell[375], total [1] cells in coverage
+[2023-03-02 23:23:01.364] [rrc] [debug] New signal detected for cell[377], total [2] cells in coverage
+[2023-03-02 23:23:02.367] [rrc] [debug] Signal lost for cell[376], total [1] cells in coverage
+[2023-03-02 23:23:04.373] [rrc] [debug] New signal detected for cell[378], total [2] cells in coverage
+[2023-03-02 23:23:05.376] [rrc] [debug] Signal lost for cell[377], total [1] cells in coverage
+[2023-03-02 23:23:07.382] [rrc] [debug] New signal detected for cell[379], total [2] cells in coverage
+[2023-03-02 23:23:08.386] [rrc] [debug] Signal lost for cell[378], total [1] cells in coverage
+[2023-03-02 23:23:10.393] [rrc] [debug] New signal detected for cell[380], total [2] cells in coverage
+[2023-03-02 23:23:11.395] [rrc] [debug] Signal lost for cell[379], total [1] cells in coverage
+[2023-03-02 23:23:12.344] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:23:12.344] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:23:12.344] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:23:13.401] [rrc] [debug] New signal detected for cell[381], total [2] cells in coverage
+[2023-03-02 23:23:14.404] [rrc] [debug] Signal lost for cell[380], total [1] cells in coverage
+[2023-03-02 23:23:16.410] [rrc] [debug] New signal detected for cell[382], total [2] cells in coverage
+[2023-03-02 23:23:17.413] [rrc] [debug] Signal lost for cell[381], total [1] cells in coverage
+[2023-03-02 23:23:19.420] [rrc] [debug] New signal detected for cell[383], total [2] cells in coverage
+[2023-03-02 23:23:20.422] [rrc] [debug] Signal lost for cell[382], total [1] cells in coverage
+[2023-03-02 23:23:20.422] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:23:22.430] [rrc] [debug] New signal detected for cell[384], total [2] cells in coverage
+[2023-03-02 23:23:22.430] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:23:23.432] [rrc] [debug] Signal lost for cell[383], total [1] cells in coverage
+[2023-03-02 23:23:25.438] [rrc] [debug] New signal detected for cell[385], total [2] cells in coverage
+[2023-03-02 23:23:26.441] [rrc] [debug] Signal lost for cell[384], total [1] cells in coverage
+[2023-03-02 23:23:28.447] [rrc] [debug] New signal detected for cell[386], total [2] cells in coverage
+[2023-03-02 23:23:29.449] [rrc] [debug] Signal lost for cell[385], total [1] cells in coverage
+[2023-03-02 23:23:31.455] [rrc] [debug] New signal detected for cell[387], total [2] cells in coverage
+[2023-03-02 23:23:32.458] [rrc] [debug] Signal lost for cell[386], total [1] cells in coverage
+[2023-03-02 23:23:34.464] [rrc] [debug] New signal detected for cell[388], total [2] cells in coverage
+[2023-03-02 23:23:35.468] [rrc] [debug] Signal lost for cell[387], total [1] cells in coverage
+[2023-03-02 23:23:37.473] [rrc] [debug] New signal detected for cell[389], total [2] cells in coverage
+[2023-03-02 23:23:38.476] [rrc] [debug] Signal lost for cell[388], total [1] cells in coverage
+[2023-03-02 23:23:40.482] [rrc] [debug] New signal detected for cell[390], total [2] cells in coverage
+[2023-03-02 23:23:41.485] [rrc] [debug] Signal lost for cell[389], total [1] cells in coverage
+[2023-03-02 23:23:42.356] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:23:42.356] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:23:42.356] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:23:43.491] [rrc] [debug] New signal detected for cell[391], total [2] cells in coverage
+[2023-03-02 23:23:44.494] [rrc] [debug] Signal lost for cell[390], total [1] cells in coverage
+[2023-03-02 23:23:46.500] [rrc] [debug] New signal detected for cell[392], total [2] cells in coverage
+[2023-03-02 23:23:47.503] [rrc] [debug] Signal lost for cell[391], total [1] cells in coverage
+[2023-03-02 23:23:49.509] [rrc] [debug] New signal detected for cell[393], total [2] cells in coverage
+[2023-03-02 23:23:50.512] [rrc] [debug] Signal lost for cell[392], total [1] cells in coverage
+[2023-03-02 23:23:52.519] [rrc] [debug] New signal detected for cell[394], total [2] cells in coverage
+[2023-03-02 23:23:53.522] [rrc] [debug] Signal lost for cell[393], total [1] cells in coverage
+[2023-03-02 23:23:55.528] [rrc] [debug] New signal detected for cell[395], total [2] cells in coverage
+[2023-03-02 23:23:56.531] [rrc] [debug] Signal lost for cell[394], total [1] cells in coverage
+[2023-03-02 23:23:58.536] [rrc] [debug] New signal detected for cell[396], total [2] cells in coverage
+[2023-03-02 23:23:59.539] [rrc] [debug] Signal lost for cell[395], total [1] cells in coverage
+[2023-03-02 23:24:01.545] [rrc] [debug] New signal detected for cell[397], total [2] cells in coverage
+[2023-03-02 23:24:02.548] [rrc] [debug] Signal lost for cell[396], total [1] cells in coverage
+[2023-03-02 23:24:04.554] [rrc] [debug] New signal detected for cell[398], total [2] cells in coverage
+[2023-03-02 23:24:05.558] [rrc] [debug] Signal lost for cell[397], total [1] cells in coverage
+[2023-03-02 23:24:07.564] [rrc] [debug] New signal detected for cell[399], total [2] cells in coverage
+[2023-03-02 23:24:08.567] [rrc] [debug] Signal lost for cell[398], total [1] cells in coverage
+[2023-03-02 23:24:10.574] [rrc] [debug] New signal detected for cell[400], total [2] cells in coverage
+[2023-03-02 23:24:11.578] [rrc] [debug] Signal lost for cell[399], total [1] cells in coverage
+[2023-03-02 23:24:12.368] [rrc] [warning] Suitable cell selection failed in [1] cells. [0] out of PLMN, [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:24:12.368] [rrc] [warning] Acceptable cell selection failed in [1] cells. [0] no SI, [0] reserved, [1] barred, ftai [0]
+[2023-03-02 23:24:12.368] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-03-02 23:24:13.585] [rrc] [debug] New signal detected for cell[401], total [2] cells in coverage
+[2023-03-02 23:24:14.588] [rrc] [debug] Signal lost for cell[400], total [1] cells in coverage
+[2023-03-02 23:24:14.588] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-03-02 23:24:16.595] [rrc] [debug] New signal detected for cell[402], total [2] cells in coverage
+[2023-03-02 23:24:16.595] [nas] [info] Selected plmn[208/93]
+[2023-03-02 23:24:17.604] [rrc] [debug] Signal lost for cell[401], total [1] cells in coverage
+[2023-03-02 23:24:19.611] [rrc] [debug] New signal detected for cell[403], total [2] cells in coverage

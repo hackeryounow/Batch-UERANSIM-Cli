@@ -31,7 +31,7 @@ class Net5GC():
     def generateUEConfigFile(self, ueId,):
         ueId = self._prefix_ueId(ueId)
         filename = "%s-ue-%s.yaml" % (self.ne5gc_type, ueId)
-        os.system("cp ./%s-ue-template.yaml %s/%s" % (self.ne5gc_type, self.config_dir, filename))
+        os.system("cp ./templates/%s-ue-template.yaml %s/%s" % (self.ne5gc_type, self.config_dir, filename))
         os.system("sed -i 's/imsi-208930000000003/%s/g' %s/%s" % (ueId, self.config_dir, filename))
     
     def _prefix_ueId(self, ueId):
@@ -92,20 +92,21 @@ class Net5GC():
                 pduNum_before = self._couterPDU(ueId)
                 
             execute_cmd = "nr-cli -e '%s' %s" % (command, ueId)
-            print("LOG:  execute %s, %s" % execute_cmd)
+            print("LOG:  execute %s" % execute_cmd)
             os.system(execute_cmd)
             timer = 0
             flag = True
             while(True):
+                print("ueId=%s" % ueId)
                 if self._isCommandFinish(command_id, ueId, pduNum_before):
                     break
                 # 2 minutes, 2*12*5 seconds
-                if timer >= 2*12:
+                if timer >= 3*12:
                     if not flag:
                         raise RuntimeError("Maybe there are some problem in your core network, please check it.")
                     self._deregisterByUeId(ueId)
                     # Change the ueId, wating for `deregister`` command completely, ueId=4
-                    ueId = 4
+                    command_id = 4
                     timer = 0
                     flag = False
                     
@@ -122,6 +123,7 @@ class Net5GC():
         elif command_id in self.commands_id:
             # ps_release, ps_release_all, deregister, ps_estabish
             # if suceeded, ue's log contains "TUN interface" 
+            
             ueId_digit = re.search("\d+", ueId).group()
             log = os.popen("tail -n 1 %s/%s.out| grep 'TUN interface'" % (self.log_dir, ueId_digit)).read()
             return len(log.split('\n')) > 1

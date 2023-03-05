@@ -1,7 +1,7 @@
 UERANSIM v3.2.6
-[2023-02-02 20:45:07.253] [sctp] [info] Trying to establish SCTP connection... (192.168.59.130:38412)
-[2023-02-02 20:45:07.254] [sctp] [info] SCTP connection established (192.168.59.130:38412)
-[2023-02-02 20:45:07.255] [sctp] [debug] SCTP association setup ascId[495]
-[2023-02-02 20:45:07.255] [ngap] [debug] Sending NG Setup Request
-[2023-02-02 20:45:07.256] [ngap] [debug] NG Setup Response received
-[2023-02-02 20:45:07.256] [ngap] [info] NG Setup procedure is successful
+[2023-03-05 17:02:06.552] [sctp] [info] Trying to establish SCTP connection... (192.168.50.111:38412)
+[2023-03-05 17:02:06.555] [sctp] [info] SCTP connection established (192.168.50.111:38412)
+[2023-03-05 17:02:06.575] [sctp] [debug] SCTP association setup ascId[1]
+[2023-03-05 17:02:06.575] [ngap] [debug] Sending NG Setup Request
+[2023-03-05 17:02:06.578] [ngap] [debug] NG Setup Response received
+[2023-03-05 17:02:06.578] [ngap] [info] NG Setup procedure is successful

@@ -1,4 +1,4 @@
-from resources.ip import open5gsIP,gnbIP
+from resources.ip import open5gsIP,gnbIP,amfPort
 import os
 import time 
 import shutil
@@ -7,8 +7,13 @@ gnb_log_file = "./logs/gnb/gnb.out"
 
 def gnb_config_init():
     filename = "./config/gnb/open5gs-gnb.yaml"
+    os.system("cp ./templates/open5gs-gnb-template.yaml %s" % filename)
+    # configure ngapIp and gtpIp
     os.system("sed -i 's/192.168.59.134/%s/g' %s" % (gnbIP, filename))
+    # configure amfIp
     os.system("sed -i 's/192.168.59.130/%s/g' %s" % (open5gsIP, filename))
+    # configure amf's port
+    os.system("sed -i 's/38412/%s/g' %s" % (amfPort, filename))
     truncate_log_file()
 
 def truncate_log_file():
@@ -21,11 +26,12 @@ def gnb_monitor():
     while True:
         gnbId = parse_gnb_id()
         while len(gnbId) == 0:
+            stop_gnb()
             start_gnb()
             gnbId = parse_gnb_id()
         amf_list_str = os.popen("nr-cli -e amf-list %s" % gnbId).read()
         amf_list = amf_list_str.split("\n")
-        print("gnbId:"+ gnbId +"; " + "amf-list: " + str(amf_list))
+        print("gnbId:"+ gnbId +"; " + "Availiable amf-list: " + str(amf_list))
         if "id" not in amf_list_str:
             print("waiting for restart gnb.")
             time.sleep(3)
@@ -37,7 +43,6 @@ def gnb_monitor():
                 if has_connected_amf():
                     break
             print("gnb has been restarted.")
-        
         time.sleep(2)
 
 def parse_gnb_id():
@@ -69,6 +74,3 @@ def stop_gnb():
     
 
 gnb_monitor()
-
-
-
